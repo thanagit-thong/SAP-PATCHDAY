@@ -2,10 +2,10 @@ name: SAP Security Patch Day
 
 on:
   schedule:
-    # Daily. The job itself decides whether the requested month has
+    # Every Tuesday. The job itself decides whether the requested month has
     # a published SAP bulletin, so we don't depend on the exact
     # Patch Tuesday timing.
-    - cron: "15 7 * * *"
+    - cron: "15 7 * * 2"
   workflow_dispatch:
     inputs:
       year:
@@ -66,7 +66,7 @@ jobs:
       - name: Commit generated JSON
         if: steps.changes.outputs.changed == 'true'
         run: |
-          git config user.name "sap-patchday-bot"
+          git config user.name "thanagit-sap-patchday-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add doc/patchday/
           git commit -m "chore: update SAP Security Patch Day"
