@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SAP Security Patch Day",
+  "type": "object",
+  "required": ["schema_version", "source", "patch_day", "summary", "security_notes"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "source": {
+      "type": "object",
+      "required": ["provider", "type", "url", "retrieved_at"],
+      "properties": {
+        "provider": {"const": "SAP"},
+        "type": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "retrieved_at": {"type": "string"}
+      }
+    },
+    "patch_day": {
+      "type": "object",
+      "required": ["year", "month", "month_name", "scheduled_date"],
+      "properties": {
+        "year": {"type": "integer"},
+        "month": {"type": "integer", "minimum": 1, "maximum": 12},
+        "month_name": {"type": "string"},
+        "scheduled_date": {"type": "string", "format": "date"}
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "announced_new_notes",
+        "announced_updates",
+        "parsed_records",
+        "parsed_new_notes",
+        "parsed_updates"
+      ],
+      "properties": {
+        "announced_new_notes": {"type": ["integer", "null"]},
+        "announced_updates": {"type": ["integer", "null"]},
+        "parsed_records": {"type": "integer"},
+        "parsed_new_notes": {"type": "integer"},
+        "parsed_updates": {"type": "integer"}
+      }
+    },
+    "security_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["note_number", "title", "priority", "cvss", "cve", "status"],
+        "properties": {
+          "note_number": {"type": "string", "pattern": "^[0-9]{7}$"},
+          "title": {"type": "string"},
+          "priority": {"type": ["string", "null"]},
+          "cvss": {"type": ["number", "null"], "minimum": 0, "maximum": 10},
+          "cve": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "affected_versions_raw": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "status": {"enum": ["new", "updated"]},
+          "source_text": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

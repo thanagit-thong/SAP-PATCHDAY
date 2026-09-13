@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "description": "SAP Security Patch Day historical coverage",
+  "range": {
+    "from": "2025-01",
+    "to": "2026-09"
+  },
+  "months_expected": 21,
+  "generated_files": []
+}
