@@ -8,53 +8,284 @@ on:
         required: true
         default: "2025-01"
         type: string
+
       to:
         description: "End month, YYYY-MM"
         required: true
         default: "2026-09"
         type: string
+
       overwrite:
         description: "Overwrite existing JSON files"
         required: true
         default: false
         type: boolean
 
+
 permissions:
   contents: write
 
+
 jobs:
+
   backfill:
+
     runs-on: ubuntu-latest
 
     steps:
+
+      # ------------------------------------------------------
+      # 1. Checkout repository
+      # ------------------------------------------------------
       - name: Checkout
         uses: actions/checkout@v4
 
+
+      # ------------------------------------------------------
+      # 2. Setup Python
+      # ------------------------------------------------------
       - name: Set up Python
         uses: actions/setup-python@v5
+
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
 
+      # ------------------------------------------------------
+      # 3. Install dependencies
+      # ------------------------------------------------------
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+
+      # ------------------------------------------------------
+      # 4. Run historical backfill
+      # ------------------------------------------------------
       - name: Backfill SAP Patch Day history
         run: |
+          echo "=========================================="
+          echo "SAP Security Patch Day Backfill"
+          echo "=========================================="
+          echo "From:      ${{ inputs.from }}"
+          echo "To:        ${{ inputs.to }}"
+          echo "Overwrite: ${{ inputs.overwrite }}"
+          echo "=========================================="
+
           python -m src.backfill \
             --from "${{ inputs.from }}" \
             --to "${{ inputs.to }}" \
             ${{ inputs.overwrite && '--overwrite' || '' }}
 
+
+      # ------------------------------------------------------
+      # 5. Verify that expected JSON files exist
+      # ------------------------------------------------------
+      - name: Verify generated JSON files
+        env:
+          START_MONTH: ${{ inputs.from }}
+          END_MONTH: ${{ inputs.to }}
+
+        run: |
+
+          python - <<'PY'
+
+          import os
+          from datetime import date
+          from pathlib import Path
+
+
+          start = os.environ["START_MONTH"]
+          end = os.environ["END_MONTH"]
+
+
+          def month_range(start_month, end_month):
+
+              sy, sm = map(
+                  int,
+                  start_month.split("-")
+              )
+
+              ey, em = map(
+                  int,
+                  end_month.split("-")
+              )
+
+              current = date(
+                  sy,
+                  sm,
+                  1
+              )
+
+              finish = date(
+                  ey,
+                  em,
+                  1
+              )
+
+              while current <= finish:
+
+                  yield (
+                      current.year,
+                      current.month
+                  )
+
+                  if current.month == 12:
+
+                      current = date(
+                          current.year + 1,
+                          1,
+                          1
+                      )
+
+                  else:
+
+                      current = date(
+                          current.year,
+                          current.month + 1,
+                          1
+                      )
+
+
+          missing = []
+          found = []
+
+
+          for year, month in month_range(
+              start,
+              end
+          ):
+
+              filename = (
+                  Path("doc")
+                  / "patchday"
+                  / f"{year:04d}-{month:02d}.json"
+              )
+
+              if filename.exists():
+
+                  found.append(
+                      str(filename)
+                  )
+
+              else:
+
+                  missing.append(
+                      str(filename)
+                  )
+
+
+          print()
+          print("==========================================")
+          print("BACKFILL OUTPUT VERIFICATION")
+          print("==========================================")
+
+          print(
+              f"Expected files: "
+              f"{len(found) + len(missing)}"
+          )
+
+          print(
+              f"Found files:    "
+              f"{len(found)}"
+          )
+
+          print(
+              f"Missing files:  "
+              f"{len(missing)}"
+          )
+
+          print()
+
+
+          if found:
+
+              print("Generated / existing files:")
+
+              for filename in found:
+                  print(f"  OK      {filename}")
+
+
+          if missing:
+
+              print()
+              print("Missing files:")
+
+              for filename in missing:
+                  print(f"  MISSING {filename}")
+
+
+              print()
+              print(
+                  "ERROR: Backfill did not generate "
+                  "all expected JSON files."
+              )
+
+              raise SystemExit(1)
+
+
+          print()
+          print(
+              "SUCCESS: All expected JSON files exist."
+          )
+
+          PY
+
+
+      # ------------------------------------------------------
+      # 6. Show Git changes
+      # ------------------------------------------------------
+      - name: Show generated changes
+        run: |
+
+          echo "=========================================="
+          echo "Git status"
+          echo "=========================================="
+
+          git status --short
+
+          echo
+          echo "Generated Patch Day files:"
+
+          find doc/patchday \
+            -maxdepth 1 \
+            -type f \
+            -name "*.json" \
+            -print \
+            | sort
+
+
+      # ------------------------------------------------------
+      # 7. Commit generated JSON
+      # ------------------------------------------------------
       - name: Commit historical JSON
         run: |
+
           git config user.name "sap-patchday-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
 
           if git diff --quiet -- doc/patchday/; then
+
             echo "No changes to commit."
+
+            echo "This usually means:"
+            echo "  - files already existed, or"
+            echo "  - overwrite=false was used."
+
             exit 0
+
           fi
 
+
           git add doc/patchday/
-          git commit -m "chore: backfill SAP Security Patch Day history"
+
+
+          git commit \
+            -m "chore: backfill SAP Security Patch Day history"
+
+
           git push
