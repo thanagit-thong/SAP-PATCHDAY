@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html",
+    "retrieved_at": "2026-09-13T14:41:51.262013+00:00"
+  },
+  "patch_day": {
+    "year": 2025,
+    "month": 1,
+    "month_name": "January",
+    "scheduled_date": "2025-01-14"
+  },
+  "summary": {
+    "announced_new_notes": 14,
+    "announced_updates": null,
+    "parsed_records": 14,
+    "parsed_new_notes": 14,
+    "parsed_updates": 0
+  },
+  "security_notes": [
+    {
+      "note_number": "3472837",
+      "cve": [
+        "CVE-2025-0055"
+      ],
+      "title": "[ CVE-2025-0055 ] Information Disclosure vulnerability in SAP GUI for Windows Product - SAP GUI for Windows, Versions – BC-FES-GUI 8.0 Medium",
+      "priority": "Medium",
+      "cvss": 6.0,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3472837 [ CVE-2025-0055 ] Information Disclosure vulnerability in SAP GUI for Windows Product - SAP GUI for Windows, Versions – BC-FES-GUI 8.0 Medium 6.0"
+    },
+    {
+      "note_number": "3474398",
+      "cve": [
+        "CVE-2025-0060",
+        "CVE-2025-0061"
+      ],
+      "title": "[ CVE-2025-0061 ] Multiple vulnerabilities in SAP BusinessObjects Business Intelligence Platform Additional CVE - CVE-2025-0060 Product - SAP BusinessObjects Business Intelligence Platform, Versions – ENTERPRISE 420, 430, 2025 High",
+      "priority": "High",
+      "cvss": 8.7,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3474398 [ CVE-2025-0061 ] Multiple vulnerabilities in SAP BusinessObjects Business Intelligence Platform Additional CVE - CVE-2025-0060 Product - SAP BusinessObjects Business Intelligence Platform, Versions – ENTERPRISE 420, 430, 2025 High 8.7"
+    },
+    {
+      "note_number": "3492169",
+      "cve": [
+        "CVE-2024-29131",
+        "CVE-2024-29133"
+      ],
+      "title": "(opens in new tab) Multiple Buffer overflow vulnerabilities in SAP BusinessObjects Business Intelligence Platform (Crystal Reports for Enterprise) Related CVEs - CVE-2024-29131 , CVE-2024-29133 Product - SAP BusinessObjects Business Intelligence Platform (Crystal Reports for Enterprise), Version - ENTERPRISE 430 Low",
+      "priority": "Low",
+      "cvss": 2.2,
+      "affected_versions_raw": [
+        "ENTERPRISE 430"
+      ],
+      "status": "new",
+      "source_text": "3492169 (opens in new tab) Multiple Buffer overflow vulnerabilities in SAP BusinessObjects Business Intelligence Platform (Crystal Reports for Enterprise) Related CVEs - CVE-2024-29131 , CVE-2024-29133 Product - SAP BusinessObjects Business Intelligence Platform (Crystal Reports for Enterprise), Version - ENTERPRISE 430 Low 2.2"
+    },
+    {
+      "note_number": "3502459",
+      "cve": [
+        "CVE-2025-0056"
+      ],
+      "title": "[ CVE-2025-0056 ] Information Disclosure vulnerability in SAP GUI for Java Product - SAP GUI for Java, Versions – BC-FES-JAV 7.80 Medium",
+      "priority": "Medium",
+      "cvss": 6.0,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3502459 [ CVE-2025-0056 ] Information Disclosure vulnerability in SAP GUI for Java Product - SAP GUI for Java, Versions – BC-FES-JAV 7.80 Medium 6.0"
+    },
+    {
+      "note_number": "3503138",
+      "cve": [
+        "CVE-2025-0059"
+      ],
+      "title": "[ CVE-2025-0059 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Product - SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML), Versions – KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93, 9.12, 9.14 Medium",
+      "priority": "Medium",
+      "cvss": 6.0,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3503138 [ CVE-2025-0059 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Product - SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML), Versions – KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93, 9.12, 9.14 Medium 6.0"
+    },
+    {
+      "note_number": "3514421",
+      "cve": [
+        "CVE-2025-0057"
+      ],
+      "title": "[ CVE-2025-0057 ] Cross-Site Scripting vulnerability in SAP NetWeaver AS JAVA (User Admin Application) Product - SAP NetWeaver AS JAVA (User Admin Application), Version - ENGINEAPI 7.50, SERVERCORE 7.50, UMEADMIN 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 4.8,
+      "affected_versions_raw": [
+        "ENGINEAPI 7.50",
+        "SERVERCORE 7.50",
+        "UMEADMIN 7.50"
+      ],
+      "status": "new",
+      "source_text": "3514421 [ CVE-2025-0057 ] Cross-Site Scripting vulnerability in SAP NetWeaver AS JAVA (User Admin Application) Product - SAP NetWeaver AS JAVA (User Admin Application), Version - ENGINEAPI 7.50, SERVERCORE 7.50, UMEADMIN 7.50 Medium 4.8"
+    },
+    {
+      "note_number": "3536461",
+      "cve": [
+        "CVE-2025-0053"
+      ],
+      "title": "[ CVE-2025-0053 ] Information Disclosure Vulnerability in SAP NetWeaver Application Server for ABAP and ABAP Platform Product - SAP NetWeaver Application Server for ABAP and ABAP Platform, Version – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3536461 [ CVE-2025-0053 ] Information Disclosure Vulnerability in SAP NetWeaver Application Server for ABAP and ABAP Platform Product - SAP NetWeaver Application Server for ABAP and ABAP Platform, Version – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757 Medium 5.3"
+    },
+    {
+      "note_number": "3537476",
+      "cve": [
+        "CVE-2025-0070"
+      ],
+      "title": "[ CVE-2025-0070 ] Improper Authentication in SAP NetWeaver ABAP Server and ABAP Platform Product - SAP NetWeaver Application Server for ABAP and ABAP Platform, Versions – KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, 8.04, KERNEL 7.22, 7.53, 7.54, 7.77, 7.89, 7.93, 7.97, 8.04, 9.12, 9.13, 9.14 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3537476 [ CVE-2025-0070 ] Improper Authentication in SAP NetWeaver ABAP Server and ABAP Platform Product - SAP NetWeaver Application Server for ABAP and ABAP Platform, Versions – KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, 8.04, KERNEL 7.22, 7.53, 7.54, 7.77, 7.89, 7.93, 7.97, 8.04, 9.12, 9.13, 9.14 Critical 9.9"
+    },
+    {
+      "note_number": "3540108",
+      "cve": [
+        "CVE-2025-0067"
+      ],
+      "title": "[ CVE-2025-0067 ] Missing Authorization check in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java, Version – WD-RUNTIME 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 6.3,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3540108 [ CVE-2025-0067 ] Missing Authorization check in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java, Version – WD-RUNTIME 7.50 Medium 6.3"
+    },
+    {
+      "note_number": "3542533",
+      "cve": [
+        "CVE-2025-0069"
+      ],
+      "title": "[ CVE-2025-0069 ] DLL Hijacking vulnerability in SAPSetup Product - SAPSetup, Version – LMSAPSETUP 9.0 High",
+      "priority": "High",
+      "cvss": 7.8,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3542533 [ CVE-2025-0069 ] DLL Hijacking vulnerability in SAPSetup Product - SAPSetup, Version – LMSAPSETUP 9.0 High 7.8"
+    },
+    {
+      "note_number": "3542698",
+      "cve": [
+        "CVE-2025-0058"
+      ],
+      "title": "[ CVE-2025-0058 ] Information Disclosure vulnerability in SAP Business Workflow and SAP Flexible Workflow Product - SAP Business Workflow and SAP Flexible Workflow, Version – SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 912, SAP_BASIS 913, SAP_BASIS 914 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3542698 [ CVE-2025-0058 ] Information Disclosure vulnerability in SAP Business Workflow and SAP Flexible Workflow Product - SAP Business Workflow and SAP Flexible Workflow, Version – SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 912, SAP_BASIS 913, SAP_BASIS 914 Medium 6.5"
+    },
+    {
+      "note_number": "3550674",
+      "cve": [
+        "CVE-2025-0068"
+      ],
+      "title": "[ CVE-2025-0068 ] Missing Authorization check in Remote Function Call (RFC) in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Application Server ABAP, Versions - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758"
+      ],
+      "status": "new",
+      "source_text": "3550674 [ CVE-2025-0068 ] Missing Authorization check in Remote Function Call (RFC) in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Application Server ABAP, Versions - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 Medium 4.3"
+    },
+    {
+      "note_number": "3550708",
+      "cve": [
+        "CVE-2025-0066"
+      ],
+      "title": "[ CVE-2025-0066 ] Information Disclosure vulnerability in SAP NetWeaver AS for ABAP and ABAP Platform(Internet Communication Framework) Product - SAP NetWeaver AS for ABAP and ABAP Platform (Internet Communication Framework), Versions – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 912, SAP_BASIS 913, SAP_BASIS 914 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3550708 [ CVE-2025-0066 ] Information Disclosure vulnerability in SAP NetWeaver AS for ABAP and ABAP Platform(Internet Communication Framework) Product - SAP NetWeaver AS for ABAP and ABAP Platform (Internet Communication Framework), Versions – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 912, SAP_BASIS 913, SAP_BASIS 914 Critical 9.9"
+    },
+    {
+      "note_number": "3550816",
+      "cve": [
+        "CVE-2025-0063"
+      ],
+      "title": "[ CVE-2025-0063 ] SQL Injection vulnerability in SAP NetWeaver AS for ABAP and ABAP Platform Product – SAP NetWeaver AS ABAP and ABAP Platform, Version – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 High",
+      "priority": "High",
+      "cvss": 8.8,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3550816 [ CVE-2025-0063 ] SQL Injection vulnerability in SAP NetWeaver AS for ABAP and ABAP Platform Product – SAP NetWeaver AS ABAP and ABAP Platform, Version – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 High 8.8"
+    }
+  ]
+}

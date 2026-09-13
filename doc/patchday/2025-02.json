@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html",
+    "retrieved_at": "2026-09-13T14:41:52.962529+00:00"
+  },
+  "patch_day": {
+    "year": 2025,
+    "month": 2,
+    "month_name": "February",
+    "scheduled_date": "2025-02-11"
+  },
+  "summary": {
+    "announced_new_notes": 19,
+    "announced_updates": null,
+    "parsed_records": 21,
+    "parsed_new_notes": 19,
+    "parsed_updates": 2
+  },
+  "security_notes": [
+    {
+      "note_number": "3287784",
+      "cve": [
+        "CVE-2023-24527"
+      ],
+      "title": "Update to Security Note released on April 2023 Patch Day: [ CVE-2023-24527 ] Improper Access Control in SAP NetWeaver AS Java for Deploy Service Product - SAP NetWeaver AS Java for Deploy Service, Version – ENGINEAPI 7.50, SERVERCORE 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3287784 Update to Security Note released on April 2023 Patch Day: [ CVE-2023-24527 ] Improper Access Control in SAP NetWeaver AS Java for Deploy Service Product - SAP NetWeaver AS Java for Deploy Service, Version – ENGINEAPI 7.50, SERVERCORE 7.50 Medium 5.3"
+    },
+    {
+      "note_number": "3417627",
+      "cve": [
+        "CVE-2024-22126"
+      ],
+      "title": "Update to Security Note released on February 2024 Patch Day: [ CVE-2024-22126 ] Cross Site Scripting vulnerability in NetWeaver AS Java (User Admin Application) Product - SAP NetWeaver AS Java (User Admin Application), Version – 7.50 High",
+      "priority": "High",
+      "cvss": 8.8,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3417627 Update to Security Note released on February 2024 Patch Day: [ CVE-2024-22126 ] Cross Site Scripting vulnerability in NetWeaver AS Java (User Admin Application) Product - SAP NetWeaver AS Java (User Admin Application), Version – 7.50 High 8.8"
+    },
+    {
+      "note_number": "3426825",
+      "cve": [
+        "CVE-2025-23191"
+      ],
+      "title": "[ CVE-2025-23191 ] Cache Poisoning through header manipulation vulnerability in SAP Fiori for SAP ERP Product - SAP Fiori for SAP ERP, Version - SAP_GWFND 740, 750, 751, 752, 753, 754, 755, 756, 757, 758 Low",
+      "priority": "Low",
+      "cvss": 3.1,
+      "affected_versions_raw": [
+        "SAP_GWFND 740",
+        "750",
+        "751",
+        "752",
+        "753",
+        "754",
+        "755",
+        "756",
+        "757",
+        "758"
+      ],
+      "status": "new",
+      "source_text": "3426825 [ CVE-2025-23191 ] Cache Poisoning through header manipulation vulnerability in SAP Fiori for SAP ERP Product - SAP Fiori for SAP ERP, Version - SAP_GWFND 740, 750, 751, 752, 753, 754, 755, 756, 757, 758 Low 3.1"
+    },
+    {
+      "note_number": "3445708",
+      "cve": [
+        "CVE-2025-24867"
+      ],
+      "title": "[ CVE-2025-24867 ] Cross-Site Scripting (XSS) vulnerability in SAP BusinessObjects Business Intelligence platform (BI Launchpad) Product - SAP BusinessObjects Platform (BI Launchpad), Version – ENTERPRISE 430, 2025 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3445708 [ CVE-2025-24867 ] Cross-Site Scripting (XSS) vulnerability in SAP BusinessObjects Business Intelligence platform (BI Launchpad) Product - SAP BusinessObjects Platform (BI Launchpad), Version – ENTERPRISE 430, 2025 Medium 6.1"
+    },
+    {
+      "note_number": "3525794",
+      "cve": [
+        "CVE-2025-0064"
+      ],
+      "title": "[ CVE-2025-0064 ] Improper Authorization in SAP BusinessObjects Business Intelligence platform (Central Management Console) Product - SAP BusinessObjects Business Intelligence platform (Central Management Console), Versions – ENTERPRISE 430, 2025 High",
+      "priority": "High",
+      "cvss": 8.7,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3525794 [ CVE-2025-0064 ] Improper Authorization in SAP BusinessObjects Business Intelligence platform (Central Management Console) Product - SAP BusinessObjects Business Intelligence platform (Central Management Console), Versions – ENTERPRISE 430, 2025 High 8.7"
+    },
+    {
+      "note_number": "3526203",
+      "cve": [
+        "CVE-2025-0054"
+      ],
+      "title": "[ CVE-2025-0054 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java, Versions – EP-BASIS 7.50, FRAMEWORK-EXT 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 5.4,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3526203 [ CVE-2025-0054 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java, Versions – EP-BASIS 7.50, FRAMEWORK-EXT 7.50 Medium 5.4"
+    },
+    {
+      "note_number": "3532025",
+      "cve": [
+        "CVE-2025-25241"
+      ],
+      "title": "[ CVE-2025-25241 ] Missing Authorization check in SAP Fiori Apps Reference Library (My Overtime Requests) Product - SAP Fiori Apps Reference Library (My Overtime Requests), Version – GBX01HR5 605 Medium",
+      "priority": "Medium",
+      "cvss": 5.4,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3532025 [ CVE-2025-25241 ] Missing Authorization check in SAP Fiori Apps Reference Library (My Overtime Requests) Product - SAP Fiori Apps Reference Library (My Overtime Requests), Version – GBX01HR5 605 Medium 5.4"
+    },
+    {
+      "note_number": "3540273",
+      "cve": [
+        "CVE-2024-45216",
+        "CVE-2024-45217"
+      ],
+      "title": "Multiple vulnerabilities in Apache Solr within SAP Commerce Cloud Related CVEs - CVE-2024-45216 , CVE-2024-45217 Product - SAP Commerce Cloud, Versions – HY_COM 2205, COM_CLOUD 2211 Medium",
+      "priority": "Medium",
+      "cvss": 5.5,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3540273 Multiple vulnerabilities in Apache Solr within SAP Commerce Cloud Related CVEs - CVE-2024-45216 , CVE-2024-45217 Product - SAP Commerce Cloud, Versions – HY_COM 2205, COM_CLOUD 2211 Medium 5.5"
+    },
+    {
+      "note_number": "3546470",
+      "cve": [
+        "CVE-2025-23187",
+        "CVE-2025-23189"
+      ],
+      "title": "[ CVE-2025-23187 ] Missing Authorization Check in SAP NetWeaver and ABAP Platform (SDCCN) Related CVE - CVE-2025-23189 Product - SAP NetWeaver and ABAP Platform (SDCCN), Versions – ST-PI 2008_1_700, ST-PI 2008_1_710, ST-PI 740 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3546470 [ CVE-2025-23187 ] Missing Authorization Check in SAP NetWeaver and ABAP Platform (SDCCN) Related CVE - CVE-2025-23189 Product - SAP NetWeaver and ABAP Platform (SDCCN), Versions – ST-PI 2008_1_700, ST-PI 2008_1_710, ST-PI 740 Medium 5.3"
+    },
+    {
+      "note_number": "3547581",
+      "cve": [
+        "CVE-2025-23190"
+      ],
+      "title": "[ CVE-2025-23190 ] Missing Authorization check in SAP NetWeaver and ABAP platform (ST-PI) Product - SAP NetWeaver and ABAP platform (ST-PI), Version - ST-PI 2008_1_700, ST-PI 2008_1_710, ST-PI 740 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "ST-PI 2008_1_700",
+        "ST-PI 2008_1_710",
+        "ST-PI 740"
+      ],
+      "status": "new",
+      "source_text": "3547581 [ CVE-2025-23190 ] Missing Authorization check in SAP NetWeaver and ABAP platform (ST-PI) Product - SAP NetWeaver and ABAP platform (ST-PI), Version - ST-PI 2008_1_700, ST-PI 2008_1_710, ST-PI 740 Medium 4.3"
+    },
+    {
+      "note_number": "3550027",
+      "cve": [
+        "CVE-2025-24869"
+      ],
+      "title": "[ CVE-2025-24869 ] Information Disclosure vulnerability in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java, Version - WD-RUNTIME 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "WD-RUNTIME 7.50"
+      ],
+      "status": "new",
+      "source_text": "3550027 [ CVE-2025-24869 ] Information Disclosure vulnerability in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java, Version - WD-RUNTIME 7.50 Medium 4.3"
+    },
+    {
+      "note_number": "3553753",
+      "cve": [
+        "CVE-2025-24872"
+      ],
+      "title": "[ CVE-2025-24872 ] Missing Authorization check in SAP ABAP Platform (ABAP Build Framework) Product - SAP ABAP Platform (ABAP Build Framework), Versions - SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758"
+      ],
+      "status": "new",
+      "source_text": "3553753 [ CVE-2025-24872 ] Missing Authorization check in SAP ABAP Platform (ABAP Build Framework) Product - SAP ABAP Platform (ABAP Build Framework), Versions - SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 Medium 4.3"
+    },
+    {
+      "note_number": "3555364",
+      "cve": [
+        "CVE-2025-24875"
+      ],
+      "title": "[ CVE-2025-24875 ] SameSite Defense in Depth not applied for some cookies in SAP Commerce Product - SAP Commerce, Versions – HY_COM 2205, COM_CLOUD 2211 Medium",
+      "priority": "Medium",
+      "cvss": 6.8,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3555364 [ CVE-2025-24875 ] SameSite Defense in Depth not applied for some cookies in SAP Commerce Product - SAP Commerce, Versions – HY_COM 2205, COM_CLOUD 2211 Medium 6.8"
+    },
+    {
+      "note_number": "3557138",
+      "cve": [
+        "CVE-2024-22126"
+      ],
+      "title": "Update 1 to Security Note 3417627 - [ CVE-2024-22126 ] Cross Site Scripting vulnerability in NetWeaver AS Java (User Admin Application) Product - SAP NetWeaver AS Java (User Admin Application), Version – 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3557138 Update 1 to Security Note 3417627 - [ CVE-2024-22126 ] Cross Site Scripting vulnerability in NetWeaver AS Java (User Admin Application) Product - SAP NetWeaver AS Java (User Admin Application), Version – 7.50 Medium 6.1"
+    },
+    {
+      "note_number": "3559510",
+      "cve": [
+        "CVE-2025-24874"
+      ],
+      "title": "[ CVE-2025-24874 ] Missing Defense in Depth Against Clickjacking in SAP Commerce (Backoffice) Product – SAP Commerce (Backoffice), Version – HY_COM 2205, COM_CLOUD 2211 Medium",
+      "priority": "Medium",
+      "cvss": 6.8,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3559510 [ CVE-2025-24874 ] Missing Defense in Depth Against Clickjacking in SAP Commerce (Backoffice) Product – SAP Commerce (Backoffice), Version – HY_COM 2205, COM_CLOUD 2211 Medium 6.8"
+    },
+    {
+      "note_number": "3561264",
+      "cve": [
+        "CVE-2025-23193"
+      ],
+      "title": "[ CVE-2025-23193 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Server ABAP, Versions – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3561264 [ CVE-2025-23193 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Server ABAP, Versions – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 Medium 5.3"
+    },
+    {
+      "note_number": "3562336",
+      "cve": [
+        "CVE-2025-24870"
+      ],
+      "title": "[ CVE-2025-24870 ] Insecure Key & Secret Management vulnerability in SAP GUI for Windows Product - SAP GUI for Windows, Version – BC-FES-GUI 8.00 Medium",
+      "priority": "Medium",
+      "cvss": 6.0,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3562336 [ CVE-2025-24870 ] Insecure Key & Secret Management vulnerability in SAP GUI for Windows Product - SAP GUI for Windows, Version – BC-FES-GUI 8.00 Medium 6.0"
+    },
+    {
+      "note_number": "3563929",
+      "cve": [
+        "CVE-2025-24868"
+      ],
+      "title": "[ CVE-2025-24868 ] Open Redirect Vulnerability in SAP HANA extended application services, advanced model (User Account and Authentication Services) Product - SAP HANA extended application services, advanced model (User Account and Authentication Services), Version - SAP_EXTENDED_APP_SERVICES 1 High",
+      "priority": "High",
+      "cvss": 7.1,
+      "affected_versions_raw": [
+        "SAP_EXTENDED_APP_SERVICES 1"
+      ],
+      "status": "new",
+      "source_text": "3563929 [ CVE-2025-24868 ] Open Redirect Vulnerability in SAP HANA extended application services, advanced model (User Account and Authentication Services) Product - SAP HANA extended application services, advanced model (User Account and Authentication Services), Version - SAP_EXTENDED_APP_SERVICES 1 High 7.1"
+    },
+    {
+      "note_number": "3567172",
+      "cve": [
+        "CVE-2024-38819",
+        "CVE-2024-38820",
+        "CVE-2024-38828"
+      ],
+      "title": "[ CVE-2024-38819 ] Multiple vulnerabilities in SAP Enterprise Project Connection Related CVEs - CVE-2024-38820 , CVE-2024-38828 Product - SAP Enterprise Project Connection, Version – 3.0 High",
+      "priority": "High",
+      "cvss": 7.5,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3567172 [ CVE-2024-38819 ] Multiple vulnerabilities in SAP Enterprise Project Connection Related CVEs - CVE-2024-38820 , CVE-2024-38828 Product - SAP Enterprise Project Connection, Version – 3.0 High 7.5"
+    },
+    {
+      "note_number": "3567551",
+      "cve": [
+        "CVE-2025-25243"
+      ],
+      "title": "[ CVE-2025-25243 ] Path traversal vulnerability in SAP Supplier Relationship Management (Master Data Management Catalog) Product - SAP Supplier Relationship Management (Master Data Management Catalog), Version - SRM_MDM_CAT 7.52 High",
+      "priority": "High",
+      "cvss": 8.6,
+      "affected_versions_raw": [
+        "SRM_MDM_CAT 7.52"
+      ],
+      "status": "new",
+      "source_text": "3567551 [ CVE-2025-25243 ] Path traversal vulnerability in SAP Supplier Relationship Management (Master Data Management Catalog) Product - SAP Supplier Relationship Management (Master Data Management Catalog), Version - SRM_MDM_CAT 7.52 High 8.6"
+    },
+    {
+      "note_number": "3567974",
+      "cve": [
+        "CVE-2025-24876"
+      ],
+      "title": "[ CVE-2025-24876 ] Authentication bypass via authorization code injection in SAP Approuter Library - @sap/approuter, Version - 2.6.1 to 16.7.1 High",
+      "priority": "High",
+      "cvss": 8.1,
+      "affected_versions_raw": [
+        "2.6.1 to 16.7.1"
+      ],
+      "status": "new",
+      "source_text": "3567974 [ CVE-2025-24876 ] Authentication bypass via authorization code injection in SAP Approuter Library - @sap/approuter, Version - 2.6.1 to 16.7.1 High 8.1"
+    }
+  ]
+}
