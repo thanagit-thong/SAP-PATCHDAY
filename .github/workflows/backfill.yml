@@ -261,31 +261,67 @@ jobs:
       # ------------------------------------------------------
       - name: Commit historical JSON
         run: |
-
           git config user.name "sap-patchday-bot"
 
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
+          echo "=========================================="
+          echo "Git status BEFORE commit"
+          echo "=========================================="
 
-          if git diff --quiet -- doc/patchday/; then
+          git status --short --untracked-files=all
 
-            echo "No changes to commit."
+          echo
+          echo "=========================================="
+          echo "Check ignored files"
+          echo "=========================================="
 
-            echo "This usually means:"
-            echo "  - files already existed, or"
-            echo "  - overwrite=false was used."
+          git status --ignored --short doc/patchday/ || true
 
-            exit 0
+          echo
+          echo "=========================================="
+          echo "Adding Patch Day JSON"
+          echo "=========================================="
 
+          git add -A doc/patchday/
+
+          echo
+          echo "=========================================="
+          echo "Git status AFTER git add"
+          echo "=========================================="
+
+          git status --short
+
+          echo
+          echo "=========================================="
+          echo "Staged files"
+          echo "=========================================="
+
+          git diff --cached --name-status
+
+          if git diff --cached --quiet; then
+            echo
+            echo "ERROR: Nothing was staged for commit."
+            echo
+            echo "Possible causes:"
+            echo "  - files are ignored by .gitignore"
+            echo "  - files are outside the repository"
+            echo "  - generated files were not actually created"
+            exit 1
           fi
 
-
-          git add doc/patchday/
-
+          echo
+          echo "=========================================="
+          echo "Committing"
+          echo "=========================================="
 
           git commit \
             -m "chore: backfill SAP Security Patch Day history"
 
+          echo
+          echo "=========================================="
+          echo "Pushing"
+          echo "=========================================="
 
           git push
