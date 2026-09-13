@@ -45,10 +45,12 @@ def bulletin_url(year: int, month: int) -> str:
     """
     Backward-compatible helper.
 
-    For 2026+ return the monthly bulletin URL.
-    For <=2025 return the yearly archive URL.
+    For Current year : return the monthly bulletin URL.
+    For Previous year: return the yearly archive URL.
     """
-    if year >= 2026:
+    current_year = date.today().year
+
+    if year == current_year:
         return monthly_bulletin_url(year, month)
 
     return yearly_archive_url(year)
@@ -177,19 +179,13 @@ def fetch_bulletin(
 
     SAP publishing model:
 
-    2026+
-        One page per month.
+    Current year: One page per month.
+    Example: september-2026.html
 
-        Example:
-            september-2026.html
+    Previous year: One archive page per year.
+    Example: bulletin-2025.html
 
-    <=2025
-        One archive page per year.
-
-        Example:
-            bulletin-2025.html
-
-        The requested month is extracted from that page.
+    The requested month is extracted from that page.
     """
 
     # ---------------------------------------------------------
