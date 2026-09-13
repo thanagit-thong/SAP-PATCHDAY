@@ -1,7 +1,7 @@
 # SAP-PATCHDAY
 
 Automated SAP Security Patch Day collector.
-JSON file is available at doc/patchday
+JSON file is available at **[doc/patchday](https://github.com/thanagit-thong/SAP-PATCHDAY/tree/main/doc/patchday)**
 
 - Please note that this project is under development.If you only need the monthly Security Note JSON files (Phase 1), you can readily consume and integrate them into your application.
 - Feel free to fork and use this repository at your own risk.
