@@ -1,0 +1,73 @@
+name: SAP Security Patch Day
+
+on:
+  schedule:
+    # Daily. The job itself decides whether the requested month has
+    # a published SAP bulletin, so we don't depend on the exact
+    # Patch Tuesday timing.
+    - cron: "15 7 * * *"
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Year (optional)"
+        required: false
+        type: string
+      month:
+        description: "Month 1-12 (optional)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine month
+        id: period
+        shell: bash
+        run: |
+          if [ -n "${{ inputs.year }}" ] && [ -n "${{ inputs.month }}" ]; then
+            echo "year=${{ inputs.year }}" >> "$GITHUB_OUTPUT"
+            printf 'month=%02d\n' "${{ inputs.month }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "year=$(date -u +%Y)" >> "$GITHUB_OUTPUT"
+            echo "month=$(date -u +%m)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Collect SAP Patch Day
+        run: |
+          python -m src.main \
+            --year "${{ steps.period.outputs.year }}" \
+            --month "${{ steps.period.outputs.month }}"
+
+      - name: Check changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit generated JSON
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "sap-patchday-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add doc/patchday/
+          git commit -m "chore: update SAP Security Patch Day"
+          git push
