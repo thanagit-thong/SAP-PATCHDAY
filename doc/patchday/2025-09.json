@@ -1,0 +1,594 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html",
+    "retrieved_at": "2026-09-13T14:45:16.880602+00:00"
+  },
+  "patch_day": {
+    "year": 2025,
+    "month": 9,
+    "month_name": "September",
+    "scheduled_date": "2025-09-09"
+  },
+  "summary": {
+    "announced_new_notes": 21,
+    "announced_updates": null,
+    "parsed_records": 33,
+    "parsed_new_notes": 22,
+    "parsed_updates": 11
+  },
+  "security_notes": [
+    {
+      "note_number": "3302162",
+      "cve": [
+        "CVE-2023-27500"
+      ],
+      "title": "Update to Security Note released on March 2023 Patch Day: [ CVE-2023-27500 ] Directory Traversal vulnerability in SAP NetWeaver AS for ABAP and ABAP Platform Product – SAP NetWeaver AS for ABAP and ABAP Platform Version – 700, 701, 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757 Critical",
+      "priority": "Critical",
+      "cvss": 9.6,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3302162 Update to Security Note released on March 2023 Patch Day: [ CVE-2023-27500 ] Directory Traversal vulnerability in SAP NetWeaver AS for ABAP and ABAP Platform Product – SAP NetWeaver AS for ABAP and ABAP Platform Version – 700, 701, 702, 731, 740, 750, 751, 752, 753, 754, 755, 756, 757 Critical 9.6"
+    },
+    {
+      "note_number": "3409013",
+      "cve": [
+        "CVE-2025-42915"
+      ],
+      "title": "[ CVE-2025-42915 ] Missing Authorization Check in Fiori app (Manage Payment Blocks) Product - Fiori app (Manage Payment Blocks) Version - S4CORE 107, 108 Medium",
+      "priority": "Medium",
+      "cvss": 5.4,
+      "affected_versions_raw": [
+        "S4CORE 107",
+        "108"
+      ],
+      "status": "new",
+      "source_text": "3409013 [ CVE-2025-42915 ] Missing Authorization Check in Fiori app (Manage Payment Blocks) Product - Fiori app (Manage Payment Blocks) Version - S4CORE 107, 108 Medium 5.4"
+    },
+    {
+      "note_number": "3409013",
+      "cve": [
+        "CVE-2025-42915"
+      ],
+      "title": "Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42915 ] Missing Authorization Check in Fiori app (Manage Payment Blocks) Product - Fiori app (Manage Payment Blocks) Version - S4CORE 107, 108 Medium",
+      "priority": "Medium",
+      "cvss": 5.4,
+      "affected_versions_raw": [
+        "S4CORE 107",
+        "108"
+      ],
+      "status": "updated",
+      "source_text": "3409013 Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42915 ] Missing Authorization Check in Fiori app (Manage Payment Blocks) Product - Fiori app (Manage Payment Blocks) Version - S4CORE 107, 108 Medium 5.4"
+    },
+    {
+      "note_number": "3450692",
+      "cve": [
+        "CVE-2025-42923"
+      ],
+      "title": "[ CVE-2025-42923 ] Cross-Site Request Forgery (CSRF) vulnerability in SAP Fiori App (F4044 Manage Work Center Groups) Product - SAP Fiori App (F4044 Manage Work Center Groups) Version - UIS4HOP1 600, 700, 800, 900 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "UIS4HOP1 600",
+        "700",
+        "800",
+        "900"
+      ],
+      "status": "new",
+      "source_text": "3450692 [ CVE-2025-42923 ] Cross-Site Request Forgery (CSRF) vulnerability in SAP Fiori App (F4044 Manage Work Center Groups) Product - SAP Fiori App (F4044 Manage Work Center Groups) Version - UIS4HOP1 600, 700, 800, 900 Medium 4.3"
+    },
+    {
+      "note_number": "3525295",
+      "cve": [
+        "CVE-2025-42927"
+      ],
+      "title": "[ CVE-2025-42927 ] Information Disclosure due to Outdated OpenSSL Version in SAP NetWeaver AS Java (Adobe Document Service) Product - SAP NetWeaver AS Java (Adobe Document Service) Version - ADSSAP 7.50 Low",
+      "priority": "Low",
+      "cvss": 3.4,
+      "affected_versions_raw": [
+        "ADSSAP 7.50"
+      ],
+      "status": "new",
+      "source_text": "3525295 [ CVE-2025-42927 ] Information Disclosure due to Outdated OpenSSL Version in SAP NetWeaver AS Java (Adobe Document Service) Product - SAP NetWeaver AS Java (Adobe Document Service) Version - ADSSAP 7.50 Low 3.4"
+    },
+    {
+      "note_number": "3540622",
+      "cve": [
+        "CVE-2025-42907"
+      ],
+      "title": "[ CVE-2025-42907 ] Server-Side Request Forgery in SAP BI Platform Product - SAP BI Platform Version - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3540622 [ CVE-2025-42907 ] Server-Side Request Forgery in SAP BI Platform Product - SAP BI Platform Version - ENTERPRISE 430, 2025, 2027 Medium 4.3"
+    },
+    {
+      "note_number": "3577131",
+      "cve": [
+        "CVE-2025-31331"
+      ],
+      "title": "Update to Security Note released on April 2025 Patch Day: [ CVE-2025-31331 ] Authorization Bypass vulnerability in SAP NetWeaver Product - SAP NetWeaver Version - SAP_ABA 700, 701, 702, 731, 740, 750, 751, 752, 75C, 75D, 75E, 75F, 75G, 75H, 75I Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_ABA 700",
+        "701",
+        "702",
+        "731",
+        "740",
+        "750",
+        "751",
+        "752",
+        "75C",
+        "75D",
+        "75E",
+        "75F",
+        "75G",
+        "75H",
+        "75I"
+      ],
+      "status": "updated",
+      "source_text": "3577131 Update to Security Note released on April 2025 Patch Day: [ CVE-2025-31331 ] Authorization Bypass vulnerability in SAP NetWeaver Product - SAP NetWeaver Version - SAP_ABA 700, 701, 702, 731, 740, 750, 751, 752, 75C, 75D, 75E, 75F, 75G, 75H, 75I Medium 4.3"
+    },
+    {
+      "note_number": "3581811",
+      "cve": [
+        "CVE-2025-27428"
+      ],
+      "title": "Update to Security Note released on April 2025 Patch Day: [ CVE-2025-27428 ] Directory Traversal vulnerability in SAP NetWeaver and ABAP Platform (Service Data Collection) Product - SAP NetWeaver and ABAP Platform (Service Data Collection) Version - ST-PI 2008_1_700, 2008_1_710, 740 High",
+      "priority": "High",
+      "cvss": 7.7,
+      "affected_versions_raw": [
+        "ST-PI 2008_1_700",
+        "2008_1_710",
+        "740"
+      ],
+      "status": "updated",
+      "source_text": "3581811 Update to Security Note released on April 2025 Patch Day: [ CVE-2025-27428 ] Directory Traversal vulnerability in SAP NetWeaver and ABAP Platform (Service Data Collection) Product - SAP NetWeaver and ABAP Platform (Service Data Collection) Version - ST-PI 2008_1_700, 2008_1_710, 740 High 7.7"
+    },
+    {
+      "note_number": "3610322",
+      "cve": [
+        "CVE-2025-42961"
+      ],
+      "title": "Update to Security Note released on July 2025 Patch Day: [ CVE-2025-42961 ] Missing Authorization check in SAP NetWeaver Application Server for ABAP Product - SAP NetWeaver Application Server for ABAP Version – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 4.9,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3610322 Update to Security Note released on July 2025 Patch Day: [ CVE-2025-42961 ] Missing Authorization check in SAP NetWeaver Application Server for ABAP Product - SAP NetWeaver Application Server for ABAP Version – SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 4.9"
+    },
+    {
+      "note_number": "3611420",
+      "cve": [
+        "CVE-2023-5072"
+      ],
+      "title": "[ CVE-2023-5072 ] Denial of Service (DoS) vulnerability due to outdated JSON library used in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3611420 [ CVE-2023-5072 ] Denial of Service (DoS) vulnerability due to outdated JSON library used in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version - ENTERPRISE 430, 2025, 2027 Medium 6.5"
+    },
+    {
+      "note_number": "3614067",
+      "cve": [
+        "CVE-2025-42930"
+      ],
+      "title": "[ CVE-2025-42930 ] Denial of Service (DoS) vulnerability in SAP Business Planning and Consolidation Product - SAP Business Planning and Consolidation Version - BPC4HANA 200, 300, SAP_BW 750, 751, 752, 753, 754, 755, 756, 757, 758, 816, 914, CPMBPC 810 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "BPC4HANA 200",
+        "300",
+        "SAP_BW 750",
+        "751",
+        "752",
+        "753",
+        "754",
+        "755",
+        "756",
+        "757",
+        "758",
+        "816",
+        "914",
+        "CPMBPC 810"
+      ],
+      "status": "new",
+      "source_text": "3614067 [ CVE-2025-42930 ] Denial of Service (DoS) vulnerability in SAP Business Planning and Consolidation Product - SAP Business Planning and Consolidation Version - BPC4HANA 200, 300, SAP_BW 750, 751, 752, 753, 754, 755, 756, 757, 758, 816, 914, CPMBPC 810 Medium 6.5"
+    },
+    {
+      "note_number": "3619465",
+      "cve": [
+        "CVE-2025-42926"
+      ],
+      "title": "[ CVE-2025-42926 ] Missing Authentication check in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java Version - WD-RUNTIME 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [
+        "WD-RUNTIME 7.50"
+      ],
+      "status": "new",
+      "source_text": "3619465 [ CVE-2025-42926 ] Missing Authentication check in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java Version - WD-RUNTIME 7.50 Medium 5.3"
+    },
+    {
+      "note_number": "3620264",
+      "cve": [
+        "CVE-2025-22228"
+      ],
+      "title": "[ CVE-2025-22228 ] Security Misconfiguration vulnerability in Spring security within SAP Commerce Cloud and SAP Datahub Product - SAP Commerce Cloud and SAP Datahub Version - HY_COM 2205, HY_DHUB 2205, COM_CLOUD 2211, DHUB_CLOUD 2211 Medium",
+      "priority": "Medium",
+      "cvss": 6.6,
+      "affected_versions_raw": [
+        "HY_COM 2205",
+        "HY_DHUB 2205",
+        "COM_CLOUD 2211",
+        "DHUB_CLOUD 2211"
+      ],
+      "status": "new",
+      "source_text": "3620264 [ CVE-2025-22228 ] Security Misconfiguration vulnerability in Spring security within SAP Commerce Cloud and SAP Datahub Product - SAP Commerce Cloud and SAP Datahub Version - HY_COM 2205, HY_DHUB 2205, COM_CLOUD 2211, DHUB_CLOUD 2211 Medium 6.6"
+    },
+    {
+      "note_number": "3623504",
+      "cve": [
+        "CVE-2025-42918"
+      ],
+      "title": "[ CVE-2025-42918 ] Missing Authorization check in SAP NetWeaver Application Server for ABAP (Background Processing) Product - SAP NetWeaver Application Server for ABAP (Background Processing) Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3623504 [ CVE-2025-42918 ] Missing Authorization check in SAP NetWeaver Application Server for ABAP (Background Processing) Product - SAP NetWeaver Application Server for ABAP (Background Processing) Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 4.3"
+    },
+    {
+      "note_number": "3623504",
+      "cve": [
+        "CVE-2025-42918"
+      ],
+      "title": "Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42918 ] Missing Authorization check in SAP NetWeaver Application Server for ABAP (Background Processing) Product - SAP NetWeaver Application Server for ABAP (Background Processing) Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "updated",
+      "source_text": "3623504 Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42918 ] Missing Authorization check in SAP NetWeaver Application Server for ABAP (Background Processing) Product - SAP NetWeaver Application Server for ABAP (Background Processing) Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 4.3"
+    },
+    {
+      "note_number": "3624943",
+      "cve": [
+        "CVE-2025-42941"
+      ],
+      "title": "Update to Security Note released on August 2025 Patch Day: [ CVE-2025-42941 ] Reverse Tabnabbing vulnerability in SAP Fiori (Launchpad) Product - SAP Fiori (Launchpad) Version - SAP_UI 754 Low",
+      "priority": "Low",
+      "cvss": 3.5,
+      "affected_versions_raw": [
+        "SAP_UI 754"
+      ],
+      "status": "updated",
+      "source_text": "3624943 Update to Security Note released on August 2025 Patch Day: [ CVE-2025-42941 ] Reverse Tabnabbing vulnerability in SAP Fiori (Launchpad) Product - SAP Fiori (Launchpad) Version - SAP_UI 754 Low 3.5"
+    },
+    {
+      "note_number": "3627373",
+      "cve": [
+        "CVE-2025-42958"
+      ],
+      "title": "[ CVE-2025-42958 ] Missing Authentication check in SAP NetWeaver Product - SAP NetWeaver Version - KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, KERNEL 7.22, 7.53, 7.54 Critical",
+      "priority": "Critical",
+      "cvss": 9.1,
+      "affected_versions_raw": [
+        "KRNL64NUC 7.22",
+        "7.22EXT",
+        "KRNL64UC 7.22",
+        "7.22EXT",
+        "7.53",
+        "KERNEL 7.22",
+        "7.53",
+        "7.54"
+      ],
+      "status": "new",
+      "source_text": "3627373 [ CVE-2025-42958 ] Missing Authentication check in SAP NetWeaver Product - SAP NetWeaver Version - KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, KERNEL 7.22, 7.53, 7.54 Critical 9.1"
+    },
+    {
+      "note_number": "3627644",
+      "cve": [
+        "CVE-2025-42911"
+      ],
+      "title": "[ CVE-2025-42911 ] Missing Authorization check in SAP NetWeaver (Service Data Download) Product - SAP NetWeaver (Service Data Download) Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 5.0,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3627644 [ CVE-2025-42911 ] Missing Authorization check in SAP NetWeaver (Service Data Download) Product - SAP NetWeaver (Service Data Download) Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 5.0"
+    },
+    {
+      "note_number": "3629325",
+      "cve": [
+        "CVE-2025-42938"
+      ],
+      "title": "[ CVE-2025-42938 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver ABAP Platform Product - SAP NetWeaver ABAP Platform Version - S4CRM 100, 200, 204, 205, 206, S4CEXT 109, BBPCRM 713, 714 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "S4CRM 100",
+        "200",
+        "204",
+        "205",
+        "206",
+        "S4CEXT 109",
+        "BBPCRM 713",
+        "714"
+      ],
+      "status": "new",
+      "source_text": "3629325 [ CVE-2025-42938 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver ABAP Platform Product - SAP NetWeaver ABAP Platform Version - S4CRM 100, 200, 204, 205, 206, S4CEXT 109, BBPCRM 713, 714 Medium 6.1"
+    },
+    {
+      "note_number": "3632154",
+      "cve": [
+        "CVE-2024-13009"
+      ],
+      "title": "[ CVE-2024-13009 ] Potential Improper Resource Release vulnerability in SAP Commerce Cloud Product - SAP Commerce Cloud Version - HY_COM 2205, COM_CLOUD 2211 Low",
+      "priority": "Low",
+      "cvss": 3.1,
+      "affected_versions_raw": [
+        "HY_COM 2205",
+        "COM_CLOUD 2211"
+      ],
+      "status": "new",
+      "source_text": "3632154 [ CVE-2024-13009 ] Potential Improper Resource Release vulnerability in SAP Commerce Cloud Product - SAP Commerce Cloud Version - HY_COM 2205, COM_CLOUD 2211 Low 3.1"
+    },
+    {
+      "note_number": "3633002",
+      "cve": [
+        "CVE-2025-42929"
+      ],
+      "title": "[ CVE-2025-42929 ] Missing input validation vulnerability in SAP Landscape Transformation Replication Server Product - SAP Landscape Transformation Replication Server Version - DMIS 2011_1_620, 2011_1_640, 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2011_1_752, 2020 High",
+      "priority": "High",
+      "cvss": 8.1,
+      "affected_versions_raw": [
+        "DMIS 2011_1_620",
+        "2011_1_640",
+        "2011_1_700",
+        "2011_1_710",
+        "2011_1_730",
+        "2011_1_731",
+        "2011_1_752",
+        "2020"
+      ],
+      "status": "new",
+      "source_text": "3633002 [ CVE-2025-42929 ] Missing input validation vulnerability in SAP Landscape Transformation Replication Server Product - SAP Landscape Transformation Replication Server Version - DMIS 2011_1_620, 2011_1_640, 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2011_1_752, 2020 High 8.1"
+    },
+    {
+      "note_number": "3634501",
+      "cve": [
+        "CVE-2025-42944"
+      ],
+      "title": "[ CVE-2025-42944 ] Insecure Deserialization vulnerability in SAP Netweaver (RMI-P4) Product - SAP Netweaver AS Java Version - SERVERCORE 7.50 Critical",
+      "priority": "Critical",
+      "cvss": 10.0,
+      "affected_versions_raw": [
+        "SERVERCORE 7.50"
+      ],
+      "status": "new",
+      "source_text": "3634501 [ CVE-2025-42944 ] Insecure Deserialization vulnerability in SAP Netweaver (RMI-P4) Product - SAP Netweaver AS Java Version - SERVERCORE 7.50 Critical 10.0"
+    },
+    {
+      "note_number": "3634501",
+      "cve": [
+        "CVE-2025-42944"
+      ],
+      "title": "Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42944 ] Insecure Deserialization vulnerability in SAP Netweaver (RMI-P4) Product - SAP Netweaver (RMI-P4) Version - SERVERCORE 7.50 Critical",
+      "priority": "Critical",
+      "cvss": 10.0,
+      "affected_versions_raw": [
+        "SERVERCORE 7.50"
+      ],
+      "status": "updated",
+      "source_text": "3634501 Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42944 ] Insecure Deserialization vulnerability in SAP Netweaver (RMI-P4) Product - SAP Netweaver (RMI-P4) Version - SERVERCORE 7.50 Critical 10.0"
+    },
+    {
+      "note_number": "3635475",
+      "cve": [
+        "CVE-2025-42916"
+      ],
+      "title": "[ CVE-2025-42916 ] Missing input validation vulnerability in SAP S/4HANA (Private Cloud or On-Premise) Product - SAP S/4HANA (Private Cloud or On-Premise) Version - S4CORE 102, 103, 104, 105, 106, 107, 108 High",
+      "priority": "High",
+      "cvss": 8.1,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108"
+      ],
+      "status": "new",
+      "source_text": "3635475 [ CVE-2025-42916 ] Missing input validation vulnerability in SAP S/4HANA (Private Cloud or On-Premise) Product - SAP S/4HANA (Private Cloud or On-Premise) Version - S4CORE 102, 103, 104, 105, 106, 107, 108 High 8.1"
+    },
+    {
+      "note_number": "3635587",
+      "cve": [
+        "CVE-2025-42912",
+        "CVE-2025-42913",
+        "CVE-2025-42914"
+      ],
+      "title": "[ CVE-2025-42912 ] Missing Authorization check in SAP HCM (My Timesheet Fiori 2.0 application) Additional CVEs - CVE-2025-42913 , CVE-2025-42914 Product - SAP HCM (My Timesheet Fiori 2.0 application) Version - GBX01HR5 605 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "GBX01HR5 605"
+      ],
+      "status": "new",
+      "source_text": "3635587 [ CVE-2025-42912 ] Missing Authorization check in SAP HCM (My Timesheet Fiori 2.0 application) Additional CVEs - CVE-2025-42913 , CVE-2025-42914 Product - SAP HCM (My Timesheet Fiori 2.0 application) Version - GBX01HR5 605 Medium 6.5"
+    },
+    {
+      "note_number": "3635587",
+      "cve": [
+        "CVE-2025-42912",
+        "CVE-2025-42913",
+        "CVE-2025-42914"
+      ],
+      "title": "Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42912 ] Missing Authorization check in SAP HCM (My Timesheet Fiori 2.0 application) Additional CVE - CVE-2025-42913 , CVE-2025-42914 Product - SAP HCM (My Timesheet Fiori 2.0 application) Version - GBX01HR5 605 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "GBX01HR5 605"
+      ],
+      "status": "updated",
+      "source_text": "3635587 Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42912 ] Missing Authorization check in SAP HCM (My Timesheet Fiori 2.0 application) Additional CVE - CVE-2025-42913 , CVE-2025-42914 Product - SAP HCM (My Timesheet Fiori 2.0 application) Version - GBX01HR5 605 Medium 6.5"
+    },
+    {
+      "note_number": "3640477",
+      "cve": [
+        "CVE-2025-42925"
+      ],
+      "title": "[ CVE-2025-42925 ] Predictable Object Identifier vulnerability in SAP NetWeaver AS Java (IIOP Service) Product - SAP NetWeaver AS Java (IIOP Service) Version – SERVERCORE 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3640477 [ CVE-2025-42925 ] Predictable Object Identifier vulnerability in SAP NetWeaver AS Java (IIOP Service) Product - SAP NetWeaver AS Java (IIOP Service) Version – SERVERCORE 7.50 Medium 4.3"
+    },
+    {
+      "note_number": "3642961",
+      "cve": [
+        "CVE-2025-42933"
+      ],
+      "title": "[ CVE-2025-42933 ] Insecure Storage of Sensitive Information in SAP Business One (SLD) Product - SAP Business One (SLD) Version - B1_ON_HANA 10.0, SAP-M-BO 10.0 High",
+      "priority": "High",
+      "cvss": 8.8,
+      "affected_versions_raw": [
+        "B1_ON_HANA 10.0",
+        "SAP-M-BO 10.0"
+      ],
+      "status": "new",
+      "source_text": "3642961 [ CVE-2025-42933 ] Insecure Storage of Sensitive Information in SAP Business One (SLD) Product - SAP Business One (SLD) Version - B1_ON_HANA 10.0, SAP-M-BO 10.0 High 8.8"
+    },
+    {
+      "note_number": "3643832",
+      "cve": [
+        "CVE-2025-42917"
+      ],
+      "title": "[ CVE-2025-42917 ] Missing Authorization check in SAP HCM (Approve Timesheets Fiori 2.0 application) Product - SAP HCM (Approve Timesheets Fiori 2.0 application) Version - GBX01HR5 605 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "GBX01HR5 605"
+      ],
+      "status": "new",
+      "source_text": "3643832 [ CVE-2025-42917 ] Missing Authorization check in SAP HCM (Approve Timesheets Fiori 2.0 application) Product - SAP HCM (Approve Timesheets Fiori 2.0 application) Version - GBX01HR5 605 Medium 6.5"
+    },
+    {
+      "note_number": "3643832",
+      "cve": [
+        "CVE-2025-42917"
+      ],
+      "title": "Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42917 ] Missing Authorization check in SAP HCM (Approve Timesheets Fiori 2.0 application) Product - SAP HCM (Approve Timesheets Fiori 2.0 application) Version - GBX01HR5 605 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "GBX01HR5 605"
+      ],
+      "status": "updated",
+      "source_text": "3643832 Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42917 ] Missing Authorization check in SAP HCM (Approve Timesheets Fiori 2.0 application) Product - SAP HCM (Approve Timesheets Fiori 2.0 application) Version - GBX01HR5 605 Medium 6.5"
+    },
+    {
+      "note_number": "3643865",
+      "cve": [
+        "CVE-2025-42922"
+      ],
+      "title": "[ CVE-2025-42922 ] Insecure File Operations vulnerability in SAP NetWeaver AS Java (Deploy Web Service) Product - SAP NetWeaver AS Java (Deploy Web Service) Version - J2EE-APPS 7.50 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [
+        "J2EE-APPS 7.50"
+      ],
+      "status": "new",
+      "source_text": "3643865 [ CVE-2025-42922 ] Insecure File Operations vulnerability in SAP NetWeaver AS Java (Deploy Web Service) Product - SAP NetWeaver AS Java (Deploy Web Service) Version - J2EE-APPS 7.50 Critical 9.9"
+    },
+    {
+      "note_number": "3643865",
+      "cve": [
+        "CVE-2025-42922"
+      ],
+      "title": "Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42922 ] Insecure File Operations vulnerability in SAP NetWeaver AS Java (Deploy Web Service) Product - SAP NetWeaver AS Java (Deploy Web Service) Version - J2EE-APPS 7.50 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [
+        "J2EE-APPS 7.50"
+      ],
+      "status": "updated",
+      "source_text": "3643865 Update to Security Note released on September 2025 Patch Day: [ CVE-2025-42922 ] Insecure File Operations vulnerability in SAP NetWeaver AS Java (Deploy Web Service) Product - SAP NetWeaver AS Java (Deploy Web Service) Version - J2EE-APPS 7.50 Critical 9.9"
+    },
+    {
+      "note_number": "3647098",
+      "cve": [
+        "CVE-2025-42920"
+      ],
+      "title": "[ CVE-2025-42920 ] Cross-Site Scripting (XSS) vulnerability in SAP Supplier Relationship Management Product - SAP Supplier Relationship Management Version – SRM_SERVER 700, 701, 702, 713, 714 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3647098 [ CVE-2025-42920 ] Cross-Site Scripting (XSS) vulnerability in SAP Supplier Relationship Management Product - SAP Supplier Relationship Management Version – SRM_SERVER 700, 701, 702, 713, 714 Medium 6.1"
+    }
+  ]
+}

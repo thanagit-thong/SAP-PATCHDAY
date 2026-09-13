@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/january-2026.html",
+    "retrieved_at": "2026-09-13T14:45:24.354503+00:00"
+  },
+  "patch_day": {
+    "year": 2026,
+    "month": 1,
+    "month_name": "January",
+    "scheduled_date": "2026-01-13"
+  },
+  "summary": {
+    "announced_new_notes": 17,
+    "announced_updates": null,
+    "parsed_records": 19,
+    "parsed_new_notes": 18,
+    "parsed_updates": 1
+  },
+  "security_notes": [
+    {
+      "note_number": "3122486",
+      "cve": [
+        "CVE-2026-23683"
+      ],
+      "title": "[ CVE-2026-23683 ] Missing Authorization check in SAP Fiori App (Intercompany Balance Reconciliation) Product - SAP Fiori App (Intercompany Balance Reconciliation) Version(s) - S4CORE 102, 103, 104, 105, 106 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106"
+      ],
+      "status": "new",
+      "source_text": "3122486 [ CVE-2026-23683 ] Missing Authorization check in SAP Fiori App (Intercompany Balance Reconciliation) Product - SAP Fiori App (Intercompany Balance Reconciliation) Version(s) - S4CORE 102, 103, 104, 105, 106 Medium 4.3"
+    },
+    {
+      "note_number": "3565506",
+      "cve": [
+        "CVE-2026-0495",
+        "CVE-2026-0496",
+        "CVE-2026-0511"
+      ],
+      "title": "[ CVE-2026-0511 ] Multiple vulnerabilities in SAP Fiori App (Intercompany Balance Reconciliation) Additional CVE - CVE-2026-0496 , CVE-2026-0495 Product - SAP Fiori App (Intercompany Balance Reconciliation) Version(s) - UIAPFI70 500, 600, 700, 800, 900, 901, 902, S4CORE 102, 103, 104, 105, 106, 107, 108 High",
+      "priority": "High",
+      "cvss": 8.1,
+      "affected_versions_raw": [
+        "UIAPFI70 500",
+        "600",
+        "700",
+        "800",
+        "900",
+        "901",
+        "902",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108"
+      ],
+      "status": "new",
+      "source_text": "3565506 [ CVE-2026-0511 ] Multiple vulnerabilities in SAP Fiori App (Intercompany Balance Reconciliation) Additional CVE - CVE-2026-0496 , CVE-2026-0495 Product - SAP Fiori App (Intercompany Balance Reconciliation) Version(s) - UIAPFI70 500, 600, 700, 800, 900, 901, 902, S4CORE 102, 103, 104, 105, 106, 107, 108 High 8.1"
+    },
+    {
+      "note_number": "3593356",
+      "cve": [
+        "CVE-2026-0510"
+      ],
+      "title": "[ CVE-2026-0510 ] Obsolete Encryption Algorithm Used in NW AS Java UME User Mapping Product - NW AS Java UME User Mapping Version(s) - ENGINEAPI 7.50, SERVERCORE 7.50, UMEADMIN 7.50 Low",
+      "priority": "Low",
+      "cvss": 3.0,
+      "affected_versions_raw": [
+        "ENGINEAPI 7.50",
+        "SERVERCORE 7.50",
+        "UMEADMIN 7.50"
+      ],
+      "status": "new",
+      "source_text": "3593356 [ CVE-2026-0510 ] Obsolete Encryption Algorithm Used in NW AS Java UME User Mapping Product - NW AS Java UME User Mapping Version(s) - ENGINEAPI 7.50, SERVERCORE 7.50, UMEADMIN 7.50 Low 3.0"
+    },
+    {
+      "note_number": "3638716",
+      "cve": [
+        "CVE-2026-0513"
+      ],
+      "title": "[ CVE-2026-0513 ] Open Redirect Vulnerability in SAP Supplier Relationship Management (SICF Handler in SRM Catalog) Product - SAP Supplier Relationship Management (SICF Handler in SRM Catalog) Version(s) - SRM_SERVER 700, 701, 702, 713, 714 Medium",
+      "priority": "Medium",
+      "cvss": 4.7,
+      "affected_versions_raw": [
+        "SRM_SERVER 700",
+        "701",
+        "702",
+        "713",
+        "714"
+      ],
+      "status": "new",
+      "source_text": "3638716 [ CVE-2026-0513 ] Open Redirect Vulnerability in SAP Supplier Relationship Management (SICF Handler in SRM Catalog) Product - SAP Supplier Relationship Management (SICF Handler in SRM Catalog) Version(s) - SRM_SERVER 700, 701, 702, 713, 714 Medium 4.7"
+    },
+    {
+      "note_number": "3655227",
+      "cve": [
+        "CVE-2026-0494"
+      ],
+      "title": "[ CVE-2026-0494 ] Information Disclosure vulnerability in SAP Fiori App (Intercompany Balance Reconciliation) Product - SAP Fiori App (Intercompany Balance Reconciliation) Version(s) - UIAPFI70 500, 600, 700, 800, 900, 901, 902, UIS4H 109 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "UIAPFI70 500",
+        "600",
+        "700",
+        "800",
+        "900",
+        "901",
+        "902",
+        "UIS4H 109"
+      ],
+      "status": "new",
+      "source_text": "3655227 [ CVE-2026-0494 ] Information Disclosure vulnerability in SAP Fiori App (Intercompany Balance Reconciliation) Product - SAP Fiori App (Intercompany Balance Reconciliation) Version(s) - UIAPFI70 500, 600, 700, 800, 900, 901, 902, UIS4H 109 Medium 4.3"
+    },
+    {
+      "note_number": "3655229",
+      "cve": [
+        "CVE-2026-0493"
+      ],
+      "title": "[ CVE-2026-0493 ] Cross-Site Request Forgery (CSRF) vulnerability in SAP Fiori App (Intercompany Balance Reconciliation) Product - SAP Fiori App (Intercompany Balance Reconciliation) Version(s) - UIAPFI70 500, 600, 700, 800, 900, 901, 902, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, UIS4H 109 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "UIAPFI70 500",
+        "600",
+        "700",
+        "800",
+        "900",
+        "901",
+        "902",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "UIS4H 109"
+      ],
+      "status": "new",
+      "source_text": "3655229 [ CVE-2026-0493 ] Cross-Site Request Forgery (CSRF) vulnerability in SAP Fiori App (Intercompany Balance Reconciliation) Product - SAP Fiori App (Intercompany Balance Reconciliation) Version(s) - UIAPFI70 500, 600, 700, 800, 900, 901, 902, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, UIS4H 109 Medium 4.3"
+    },
+    {
+      "note_number": "3657998",
+      "cve": [
+        "CVE-2026-0504"
+      ],
+      "title": "[ CVE-2026-0504 ] Insufficient Input Handling in JNDI Operations of SAP Identity Management Product - SAP Identity Management Version(s) - IDM_CLM_REST_API 8.0, IDMIC 8.0 Low",
+      "priority": "Low",
+      "cvss": 3.8,
+      "affected_versions_raw": [
+        "IDM_CLM_REST_API 8.0",
+        "IDMIC 8.0"
+      ],
+      "status": "new",
+      "source_text": "3657998 [ CVE-2026-0504 ] Insufficient Input Handling in JNDI Operations of SAP Identity Management Product - SAP Identity Management Version(s) - IDM_CLM_REST_API 8.0, IDMIC 8.0 Low 3.8"
+    },
+    {
+      "note_number": "3666061",
+      "cve": [
+        "CVE-2026-0514"
+      ],
+      "title": "[ CVE-2026-0514 ] Cross-Site Scripting (XSS) vulnerability in SAP Business Connector Product - SAP Business Connector Version(s) - SAP BC 4.8 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "SAP BC 4.8"
+      ],
+      "status": "new",
+      "source_text": "3666061 [ CVE-2026-0514 ] Cross-Site Scripting (XSS) vulnerability in SAP Business Connector Product - SAP Business Connector Version(s) - SAP BC 4.8 Medium 6.1"
+    },
+    {
+      "note_number": "3668679",
+      "cve": [
+        "CVE-2026-0500"
+      ],
+      "title": "[ CVE-2026-0500 ] Remote code execution in SAP Wily Introscope Enterprise Manager (WorkStation) Product - SAP Wily Introscope Enterprise Manager (WorkStation) Version(s) - WILY_INTRO_ENTERPRISE 10.8 Critical",
+      "priority": "Critical",
+      "cvss": 9.6,
+      "affected_versions_raw": [
+        "WILY_INTRO_ENTERPRISE 10.8"
+      ],
+      "status": "new",
+      "source_text": "3668679 [ CVE-2026-0500 ] Remote code execution in SAP Wily Introscope Enterprise Manager (WorkStation) Product - SAP Wily Introscope Enterprise Manager (WorkStation) Version(s) - WILY_INTRO_ENTERPRISE 10.8 Critical 9.6"
+    },
+    {
+      "note_number": "3675151",
+      "cve": [
+        "CVE-2026-0507"
+      ],
+      "title": "[ CVE-2026-0507 ] OS Command Injection vulnerability in SAP Application Server for ABAP and SAP NetWeaver RFCSDK Product - SAP Application Server for ABAP and SAP NetWeaver RFCSDK Version(s) - KRNL64UC 7.53, NWRFCSDK 7.50, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93, 9.16 High",
+      "priority": "High",
+      "cvss": 8.4,
+      "affected_versions_raw": [
+        "KRNL64UC 7.53",
+        "NWRFCSDK 7.50",
+        "KERNEL 7.53",
+        "7.54",
+        "7.77",
+        "7.89",
+        "7.93",
+        "9.16"
+      ],
+      "status": "new",
+      "source_text": "3675151 [ CVE-2026-0507 ] OS Command Injection vulnerability in SAP Application Server for ABAP and SAP NetWeaver RFCSDK Product - SAP Application Server for ABAP and SAP NetWeaver RFCSDK Version(s) - KRNL64UC 7.53, NWRFCSDK 7.50, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93, 9.16 High 8.4"
+    },
+    {
+      "note_number": "3677111",
+      "cve": [
+        "CVE-2026-0497"
+      ],
+      "title": "[ CVE-2026-0497 ] Missing Authorization check in Business Server Pages Application (Product Designer Web UI) Product - Business Server Pages Application (Product Designer Web UI) Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 602, 603, 604, 605, 606, 617 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_APPL 618",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "EA-APPL 600",
+        "602",
+        "603",
+        "604",
+        "605",
+        "606",
+        "617"
+      ],
+      "status": "new",
+      "source_text": "3677111 [ CVE-2026-0497 ] Missing Authorization check in Business Server Pages Application (Product Designer Web UI) Product - Business Server Pages Application (Product Designer Web UI) Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 602, 603, 604, 605, 606, 617 Medium 4.3"
+    },
+    {
+      "note_number": "3681523",
+      "cve": [
+        "CVE-2026-0503"
+      ],
+      "title": "[ CVE-2026-0503 ] Missing Authorization check in SAP ERP Central Component and SAP S/4HANA (SAP EHS Management) Product - SAP ERP Central Component and SAP S/4HANA (SAP EHS Management) Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 605, 606, 617 Medium",
+      "priority": "Medium",
+      "cvss": 6.4,
+      "affected_versions_raw": [
+        "SAP_APPL 618",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "EA-APPL 605",
+        "606",
+        "617"
+      ],
+      "status": "new",
+      "source_text": "3681523 [ CVE-2026-0503 ] Missing Authorization check in SAP ERP Central Component and SAP S/4HANA (SAP EHS Management) Product - SAP ERP Central Component and SAP S/4HANA (SAP EHS Management) Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 605, 606, 617 Medium 6.4"
+    },
+    {
+      "note_number": "3687372",
+      "cve": [
+        "CVE-2026-0499"
+      ],
+      "title": "[ CVE-2026-0499 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Enterprise Portal Product - SAP NetWeaver Enterprise Portal Version(s) - EP-RUNTIME 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "EP-RUNTIME 7.50"
+      ],
+      "status": "new",
+      "source_text": "3687372 [ CVE-2026-0499 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Enterprise Portal Product - SAP NetWeaver Enterprise Portal Version(s) - EP-RUNTIME 7.50 Medium 6.1"
+    },
+    {
+      "note_number": "3687749",
+      "cve": [
+        "CVE-2026-0501"
+      ],
+      "title": "[ CVE-2026-0501 ] SQL Injection Vulnerability in SAP S/4HANA Private Cloud and On-Premise (Financials – General Ledger) Product - SAP S/4HANA Private Cloud and On-Premise (Financials – General Ledger) Version(s) - S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109"
+      ],
+      "status": "new",
+      "source_text": "3687749 [ CVE-2026-0501 ] SQL Injection Vulnerability in SAP S/4HANA Private Cloud and On-Premise (Financials – General Ledger) Product - SAP S/4HANA Private Cloud and On-Premise (Financials – General Ledger) Version(s) - S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Critical 9.9"
+    },
+    {
+      "note_number": "3688703",
+      "cve": [
+        "CVE-2026-0506"
+      ],
+      "title": "[ CVE-2026-0506 ] Missing Authorization check in SAP NetWeaver Application Server ABAP and ABAP Platform Product - SAP NetWeaver Application Server ABAP and ABAP Platform Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 High",
+      "priority": "High",
+      "cvss": 8.1,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3688703 [ CVE-2026-0506 ] Missing Authorization check in SAP NetWeaver Application Server ABAP and ABAP Platform Product - SAP NetWeaver Application Server ABAP and ABAP Platform Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 High 8.1"
+    },
+    {
+      "note_number": "3691059",
+      "cve": [
+        "CVE-2026-0492"
+      ],
+      "title": "[ CVE-2026-0492 ] Privilege escalation vulnerability in SAP HANA database Product - SAP HANA database Version(s) - HDB 2.00 High",
+      "priority": "High",
+      "cvss": 8.8,
+      "affected_versions_raw": [
+        "HDB 2.00"
+      ],
+      "status": "new",
+      "source_text": "3691059 [ CVE-2026-0492 ] Privilege escalation vulnerability in SAP HANA database Product - SAP HANA database Version(s) - HDB 2.00 High 8.8"
+    },
+    {
+      "note_number": "3694242",
+      "cve": [
+        "CVE-2026-0498"
+      ],
+      "title": "[ CVE-2026-0498 ] Code Injection vulnerability in SAP S/4HANA (Private Cloud and On-Premise) Product - SAP S/4HANA (Private Cloud and On-Premise) Version(s) - S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Critical",
+      "priority": "Critical",
+      "cvss": 9.1,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109"
+      ],
+      "status": "new",
+      "source_text": "3694242 [ CVE-2026-0498 ] Code Injection vulnerability in SAP S/4HANA (Private Cloud and On-Premise) Product - SAP S/4HANA (Private Cloud and On-Premise) Version(s) - S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Critical 9.1"
+    },
+    {
+      "note_number": "3697979",
+      "cve": [
+        "CVE-2026-0491"
+      ],
+      "title": "[ CVE-2026-0491 ] Code Injection vulnerability in SAP Landscape Transformation Product - SAP Landscape Transformation Version(s) - DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2018_1_752, 2020 Critical",
+      "priority": "Critical",
+      "cvss": 9.1,
+      "affected_versions_raw": [
+        "DMIS 2011_1_700",
+        "2011_1_710",
+        "2011_1_730",
+        "2011_1_731",
+        "2018_1_752",
+        "2020"
+      ],
+      "status": "new",
+      "source_text": "3697979 [ CVE-2026-0491 ] Code Injection vulnerability in SAP Landscape Transformation Product - SAP Landscape Transformation Version(s) - DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2018_1_752, 2020 Critical 9.1"
+    },
+    {
+      "note_number": "3697979",
+      "cve": [
+        "CVE-2026-0491"
+      ],
+      "title": "Update to Security Note released on January 2026 Patch Day: [ CVE-2026-0491 ] Code Injection vulnerability in SAP Landscape Transformation Product - SAP Landscape Transformation Version(s) - DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2018_1_752, 2020 Critical",
+      "priority": "Critical",
+      "cvss": 9.1,
+      "affected_versions_raw": [
+        "DMIS 2011_1_700",
+        "2011_1_710",
+        "2011_1_730",
+        "2011_1_731",
+        "2018_1_752",
+        "2020"
+      ],
+      "status": "updated",
+      "source_text": "3697979 Update to Security Note released on January 2026 Patch Day: [ CVE-2026-0491 ] Code Injection vulnerability in SAP Landscape Transformation Product - SAP Landscape Transformation Version(s) - DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2018_1_752, 2020 Critical 9.1"
+    }
+  ]
+}

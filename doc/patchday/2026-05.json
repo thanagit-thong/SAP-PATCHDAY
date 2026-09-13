@@ -1,0 +1,407 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/may-2026.html",
+    "retrieved_at": "2026-09-13T14:45:31.495201+00:00"
+  },
+  "patch_day": {
+    "year": 2026,
+    "month": 5,
+    "month_name": "May",
+    "scheduled_date": "2026-05-12"
+  },
+  "summary": {
+    "announced_new_notes": 15,
+    "announced_updates": null,
+    "parsed_records": 19,
+    "parsed_new_notes": 16,
+    "parsed_updates": 3
+  },
+  "security_notes": [
+    {
+      "note_number": "3433366",
+      "cve": [
+        "CVE-2026-44749"
+      ],
+      "title": "[ CVE-2026-44749 ] Information Disclosure vulnerability in SAP Gateway Product - SAP Gateway Version(s) - SAP_GWFND 750, 751, 752, 753, 754, 755, 756, 757, 758, SAP_BASIS 795 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_GWFND 750",
+        "751",
+        "752",
+        "753",
+        "754",
+        "755",
+        "756",
+        "757",
+        "758",
+        "SAP_BASIS 795"
+      ],
+      "status": "new",
+      "source_text": "3433366 [ CVE-2026-44749 ] Information Disclosure vulnerability in SAP Gateway Product - SAP Gateway Version(s) - SAP_GWFND 750, 751, 752, 753, 754, 755, 756, 757, 758, SAP_BASIS 795 Medium 4.3"
+    },
+    {
+      "note_number": "3667593",
+      "cve": [
+        "CVE-2026-0502"
+      ],
+      "title": "[ CVE-2026-0502 ] Cross Site Request Forgery (CSRF) in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 5.4,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3667593 [ CVE-2026-0502 ] Cross Site Request Forgery (CSRF) in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 Medium 5.4"
+    },
+    {
+      "note_number": "3713521",
+      "cve": [
+        "CVE-2026-40136"
+      ],
+      "title": "[ CVE-2026-40136 ] Denial of service (DoS) in SAP Financial Consolidation Product - SAP Financial Consolidation Version(s) - FINANCE 1010 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "FINANCE 1010"
+      ],
+      "status": "new",
+      "source_text": "3713521 [ CVE-2026-40136 ] Denial of service (DoS) in SAP Financial Consolidation Product - SAP Financial Consolidation Version(s) - FINANCE 1010 Medium 4.3"
+    },
+    {
+      "note_number": "3716450",
+      "cve": [
+        "CVE-2025-68161"
+      ],
+      "title": "[ CVE-2025-68161 ] Potential Improper Certificate Validation in SAP Commerce Cloud (Apache Log4j) Product - SAP Commerce Cloud (Apache Log4j) Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Medium",
+      "priority": "Medium",
+      "cvss": 4.8,
+      "affected_versions_raw": [
+        "HY_COM 2205",
+        "COM_CLOUD 2211",
+        "2211-JDK21"
+      ],
+      "status": "new",
+      "source_text": "3716450 [ CVE-2025-68161 ] Potential Improper Certificate Validation in SAP Commerce Cloud (Apache Log4j) Product - SAP Commerce Cloud (Apache Log4j) Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Medium 4.8"
+    },
+    {
+      "note_number": "3718083",
+      "cve": [
+        "CVE-2026-40133"
+      ],
+      "title": "[ CVE-2026-40133 ] Missing Authorization check in SAP S/4HANA Condition Maintenance Product - SAP S/4HANA Condition Maintenance Version(s) - S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Medium",
+      "priority": "Medium",
+      "cvss": 6.3,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109"
+      ],
+      "status": "new",
+      "source_text": "3718083 [ CVE-2026-40133 ] Missing Authorization check in SAP S/4HANA Condition Maintenance Product - SAP S/4HANA Condition Maintenance Version(s) - S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Medium 6.3"
+    },
+    {
+      "note_number": "3718508",
+      "cve": [
+        "CVE-2026-40134"
+      ],
+      "title": "[ CVE-2026-40134 ] Missing Authorization Check in SAP Incentive and Commission Management Product - SAP Incentive and Commission Management Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 604, 605, 606, 617 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_APPL 618",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "EA-APPL 600",
+        "604",
+        "605",
+        "606",
+        "617"
+      ],
+      "status": "new",
+      "source_text": "3718508 [ CVE-2026-40134 ] Missing Authorization Check in SAP Incentive and Commission Management Product - SAP Incentive and Commission Management Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 604, 605, 606, 617 Medium 4.3"
+    },
+    {
+      "note_number": "3718508",
+      "cve": [
+        "CVE-2026-40134"
+      ],
+      "title": "Update to Security Note released on May 2026 Patch Day: [ CVE-2026-40134 ] Missing Authorization Check in SAP Incentive and Commission Management Product - SAP Incentive and Commission Management Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 604, 605, 606, 617 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_APPL 618",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "EA-APPL 600",
+        "604",
+        "605",
+        "606",
+        "617"
+      ],
+      "status": "updated",
+      "source_text": "3718508 Update to Security Note released on May 2026 Patch Day: [ CVE-2026-40134 ] Missing Authorization Check in SAP Incentive and Commission Management Product - SAP Incentive and Commission Management Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 604, 605, 606, 617 Medium 4.3"
+    },
+    {
+      "note_number": "3721959",
+      "cve": [
+        "CVE-2026-40132"
+      ],
+      "title": "[ CVE-2026-40132 ] Missing Authorization Check in SAP Strategic Enterprise Management (BSP application Balanced Scorecard Wizard) Product - SAP Strategic Enterprise Management (BSP application Balanced Scorecard Wizard) Version(s) - SEM-BW 605, 700, 736, 746, 747, 748, 749, 800 Medium",
+      "priority": "Medium",
+      "cvss": 5.4,
+      "affected_versions_raw": [
+        "SEM-BW 605",
+        "700",
+        "736",
+        "746",
+        "747",
+        "748",
+        "749",
+        "800"
+      ],
+      "status": "new",
+      "source_text": "3721959 [ CVE-2026-40132 ] Missing Authorization Check in SAP Strategic Enterprise Management (BSP application Balanced Scorecard Wizard) Product - SAP Strategic Enterprise Management (BSP application Balanced Scorecard Wizard) Version(s) - SEM-BW 605, 700, 736, 746, 747, 748, 749, 800 Medium 5.4"
+    },
+    {
+      "note_number": "3724838",
+      "cve": [
+        "CVE-2026-34260"
+      ],
+      "title": "[ CVE-2026-34260 ] SQL injection vulnerability in SAP S/4HANA (SAP Enterprise Search for ABAP) Product - SAP S/4HANA (SAP Enterprise Search for ABAP) Version(s) - SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Critical",
+      "priority": "Critical",
+      "cvss": 9.6,
+      "affected_versions_raw": [
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3724838 [ CVE-2026-34260 ] SQL injection vulnerability in SAP S/4HANA (SAP Enterprise Search for ABAP) Product - SAP S/4HANA (SAP Enterprise Search for ABAP) Version(s) - SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Critical 9.6"
+    },
+    {
+      "note_number": "3726583",
+      "cve": [
+        "CVE-2026-34258"
+      ],
+      "title": "[ CVE-2026-34258 ] Content Spoofing vulnerability in SAPUI5 (Search UI) Product - SAPUI5 (Search UI) Version(s) - SAPUI5 1.108, 1.120, 1.136, 1.142, 1.71, 1.84, 1.96 Medium",
+      "priority": "Medium",
+      "cvss": 4.7,
+      "affected_versions_raw": [
+        "SAPUI5 1.108",
+        "1.120",
+        "1.136",
+        "1.142",
+        "1.71",
+        "1.84",
+        "1.96"
+      ],
+      "status": "new",
+      "source_text": "3726583 [ CVE-2026-34258 ] Content Spoofing vulnerability in SAPUI5 (Search UI) Product - SAPUI5 (Search UI) Version(s) - SAPUI5 1.108, 1.120, 1.136, 1.142, 1.71, 1.84, 1.96 Medium 4.7"
+    },
+    {
+      "note_number": "3726962",
+      "cve": [
+        "CVE-2026-40131"
+      ],
+      "title": "[ CVE-2026-40131 ] SQL Injection vulnerability in SAP HANA Deployment Infrastructure (HDI) deploy library Product - SAP HANA Deployment Infrastructure (HDI) deploy library Version(s) - XS_HDI_DEPLOYER 1.00 Low",
+      "priority": "Low",
+      "cvss": 3.4,
+      "affected_versions_raw": [
+        "XS_HDI_DEPLOYER 1.00"
+      ],
+      "status": "new",
+      "source_text": "3726962 [ CVE-2026-40131 ] SQL Injection vulnerability in SAP HANA Deployment Infrastructure (HDI) deploy library Product - SAP HANA Deployment Infrastructure (HDI) deploy library Version(s) - XS_HDI_DEPLOYER 1.00 Low 3.4"
+    },
+    {
+      "note_number": "3727717",
+      "cve": [
+        "CVE-2026-40137"
+      ],
+      "title": "[ CVE-2026-40137 ] Cross-Site Scripting (XSS) vulnerability in Business Server Pages Application (TAF_APPLAUNCHER) Product - Business Server Pages Application (TAF_APPLAUNCHER) Version(s) - ST-PI 740, 758 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "ST-PI 740",
+        "758"
+      ],
+      "status": "new",
+      "source_text": "3727717 [ CVE-2026-40137 ] Cross-Site Scripting (XSS) vulnerability in Business Server Pages Application (TAF_APPLAUNCHER) Product - Business Server Pages Application (TAF_APPLAUNCHER) Version(s) - ST-PI 740, 758 Medium 6.1"
+    },
+    {
+      "note_number": "3728690",
+      "cve": [
+        "CVE-2026-27682"
+      ],
+      "title": "[ CVE-2026-27682 ] Reflected Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server ABAP (Applications based on Business Server Pages) Product - SAP NetWeaver Application Server ABAP (Applications based on Business Server Pages) Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816, SAP_BASIS 918 Medium",
+      "priority": "Medium",
+      "cvss": 4.7,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816",
+        "SAP_BASIS 918"
+      ],
+      "status": "new",
+      "source_text": "3728690 [ CVE-2026-27682 ] Reflected Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server ABAP (Applications based on Business Server Pages) Product - SAP NetWeaver Application Server ABAP (Applications based on Business Server Pages) Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816, SAP_BASIS 918 Medium 4.7"
+    },
+    {
+      "note_number": "3730019",
+      "cve": [
+        "CVE-2026-40135"
+      ],
+      "title": "[ CVE-2026-40135 ] OS Command Injection vulnerability in SAP NetWeaver Application Server for ABAP and ABAP Platform Product - SAP NetWeaver Application Server for ABAP and ABAP Platform Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3730019 [ CVE-2026-40135 ] OS Command Injection vulnerability in SAP NetWeaver Application Server for ABAP and ABAP Platform Product - SAP NetWeaver Application Server for ABAP and ABAP Platform Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 6.5"
+    },
+    {
+      "note_number": "3732471",
+      "cve": [
+        "CVE-2026-34259"
+      ],
+      "title": "[ CVE-2026-34259 ] OS Command Injection Vulnerability in SAP Forecasting & Replenishment Product - SAP Forecasting & Replenishment Version(s) - SCM 702, 712, 713, 714 High",
+      "priority": "High",
+      "cvss": 8.2,
+      "affected_versions_raw": [
+        "SCM 702",
+        "712",
+        "713",
+        "714"
+      ],
+      "status": "new",
+      "source_text": "3732471 [ CVE-2026-34259 ] OS Command Injection Vulnerability in SAP Forecasting & Replenishment Product - SAP Forecasting & Replenishment Version(s) - SCM 702, 712, 713, 714 High 8.2"
+    },
+    {
+      "note_number": "3732471",
+      "cve": [
+        "CVE-2026-34259"
+      ],
+      "title": "Update to Security Note released on May 2026 Patch Day: [ CVE-2026-34259 ] OS Command Injection Vulnerability in SAP Forecasting & Replenishment Product - SAP Forecasting & Replenishment Version(s) - SCM 702, 712, 713, 714 High",
+      "priority": "High",
+      "cvss": 8.2,
+      "affected_versions_raw": [
+        "SCM 702",
+        "712",
+        "713",
+        "714"
+      ],
+      "status": "updated",
+      "source_text": "3732471 Update to Security Note released on May 2026 Patch Day: [ CVE-2026-34259 ] OS Command Injection Vulnerability in SAP Forecasting & Replenishment Product - SAP Forecasting & Replenishment Version(s) - SCM 702, 712, 713, 714 High 8.2"
+    },
+    {
+      "note_number": "3733064",
+      "cve": [
+        "CVE-2026-34263"
+      ],
+      "title": "[ CVE-2026-34263 ] Missing authentication check in SAP Commerce cloud configuration Product - SAP Commerce cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Critical",
+      "priority": "Critical",
+      "cvss": 9.6,
+      "affected_versions_raw": [
+        "HY_COM 2205",
+        "COM_CLOUD 2211",
+        "2211-JDK21"
+      ],
+      "status": "new",
+      "source_text": "3733064 [ CVE-2026-34263 ] Missing authentication check in SAP Commerce cloud configuration Product - SAP Commerce cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Critical 9.6"
+    },
+    {
+      "note_number": "3733064",
+      "cve": [
+        "CVE-2026-34263"
+      ],
+      "title": "Update to Security Note released on May 2026 Patch Day: [ CVE-2026-34263 ] Missing authentication check in SAP Commerce cloud configuration Product - SAP Commerce cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Critical",
+      "priority": "Critical",
+      "cvss": 9.6,
+      "affected_versions_raw": [
+        "HY_COM 2205",
+        "COM_CLOUD 2211",
+        "2211-JDK21"
+      ],
+      "status": "updated",
+      "source_text": "3733064 Update to Security Note released on May 2026 Patch Day: [ CVE-2026-34263 ] Missing authentication check in SAP Commerce cloud configuration Product - SAP Commerce cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Critical 9.6"
+    },
+    {
+      "note_number": "3735359",
+      "cve": [
+        "CVE-2026-40129"
+      ],
+      "title": "[ CVE-2026-40129 ] Code Injection vulnerability in SAP Application Server ABAP for SAP NetWeaver and ABAP Platform Product - SAP Application Server ABAP for SAP NetWeaver and ABAP Platform Version(s) - SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3735359 [ CVE-2026-40129 ] Code Injection vulnerability in SAP Application Server ABAP for SAP NetWeaver and ABAP Platform Product - SAP Application Server ABAP for SAP NetWeaver and ABAP Platform Version(s) - SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 4.3"
+    }
+  ]
+}

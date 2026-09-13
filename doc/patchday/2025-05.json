@@ -1,0 +1,346 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html",
+    "retrieved_at": "2026-09-13T14:45:09.467358+00:00"
+  },
+  "patch_day": {
+    "year": 2025,
+    "month": 5,
+    "month_name": "May",
+    "scheduled_date": "2025-05-13"
+  },
+  "summary": {
+    "announced_new_notes": 16,
+    "announced_updates": null,
+    "parsed_records": 22,
+    "parsed_new_notes": 16,
+    "parsed_updates": 6
+  },
+  "security_notes": [
+    {
+      "note_number": "2491817",
+      "cve": [
+        "CVE-2025-43009"
+      ],
+      "title": "[ CVE-2025-43009 ] Missing Authorization check in SAP Service Parts Management (SPM) Product - SAP Service Parts Management (SPM) Versions - SAP_APPL 600, 602, 603, 604, 605, 606, 616, 617, 618, SAPSCORE 111, S4CORE 100, 101, 102 Medium",
+      "priority": "Medium",
+      "cvss": 6.3,
+      "affected_versions_raw": [
+        "SAP_APPL 600",
+        "602",
+        "603",
+        "604",
+        "605",
+        "606",
+        "616",
+        "617",
+        "618",
+        "SAPSCORE 111",
+        "S4CORE 100",
+        "101",
+        "102"
+      ],
+      "status": "new",
+      "source_text": "2491817 [ CVE-2025-43009 ] Missing Authorization check in SAP Service Parts Management (SPM) Product - SAP Service Parts Management (SPM) Versions - SAP_APPL 600, 602, 603, 604, 605, 606, 616, 617, 618, SAPSCORE 111, S4CORE 100, 101, 102 Medium 6.3"
+    },
+    {
+      "note_number": "2719724",
+      "cve": [
+        "CVE-2025-43007"
+      ],
+      "title": "[ CVE-2025-43007 ] Missing Authorization check in SAP Service Parts Management (SPM) Product - SAP Service Parts Management (SPM) Versions - SAP_APPL 617, 618, SAPSCORE 116, S4CORE 100, 101, 102, 103 Medium",
+      "priority": "Medium",
+      "cvss": 6.3,
+      "affected_versions_raw": [
+        "SAP_APPL 617",
+        "618",
+        "SAPSCORE 116",
+        "S4CORE 100",
+        "101",
+        "102",
+        "103"
+      ],
+      "status": "new",
+      "source_text": "2719724 [ CVE-2025-43007 ] Missing Authorization check in SAP Service Parts Management (SPM) Product - SAP Service Parts Management (SPM) Versions - SAP_APPL 617, 618, SAPSCORE 116, S4CORE 100, 101, 102, 103 Medium 6.3"
+    },
+    {
+      "note_number": "3227940",
+      "cve": [
+        "CVE-2025-43002"
+      ],
+      "title": "[ CVE-2025-43002 ] Missing Authorization check in SAP S4/HANA (OData meta-data property) Product - SAP S4/HANA (OData meta-data property) Versions - S4CORE 102, 103, 104, 105, 106 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106"
+      ],
+      "status": "new",
+      "source_text": "3227940 [ CVE-2025-43002 ] Missing Authorization check in SAP S4/HANA (OData meta-data property) Product - SAP S4/HANA (OData meta-data property) Versions - S4CORE 102, 103, 104, 105, 106 Medium 4.3"
+    },
+    {
+      "note_number": "3426825",
+      "cve": [
+        "CVE-2025-23191"
+      ],
+      "title": "Update to Security Note released on February 2025 Patch Day: [ CVE-2025-23191 ] Cache Poisoning through header manipulation vulnerability in SAP Fiori for SAP ERP Product – SAP Fiori for SAP ERP Versions – SAP_GWFND 740, 750, 751, 752, 753, 754, 755, 756, 757, 758 Low",
+      "priority": "Low",
+      "cvss": 3.1,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3426825 Update to Security Note released on February 2025 Patch Day: [ CVE-2025-23191 ] Cache Poisoning through header manipulation vulnerability in SAP Fiori for SAP ERP Product – SAP Fiori for SAP ERP Versions – SAP_GWFND 740, 750, 751, 752, 753, 754, 755, 756, 757, 758 Low 3.1"
+    },
+    {
+      "note_number": "3474398",
+      "cve": [
+        "CVE-2025-0060",
+        "CVE-2025-0061"
+      ],
+      "title": "Update to Security Note released on January 2025 Patch Day: [ CVE-2025-0061 ] Multiple vulnerabilities in SAP BusinessObjects Business Intelligence Platform Additional CVE - CVE-2025-0060 Product – SAP BusinessObjects Business Intelligence Platform Versions – ENTERPRISE 420, 430, 2025 High",
+      "priority": "High",
+      "cvss": 8.7,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3474398 Update to Security Note released on January 2025 Patch Day: [ CVE-2025-0061 ] Multiple vulnerabilities in SAP BusinessObjects Business Intelligence Platform Additional CVE - CVE-2025-0060 Product – SAP BusinessObjects Business Intelligence Platform Versions – ENTERPRISE 420, 430, 2025 High 8.7"
+    },
+    {
+      "note_number": "3483344",
+      "cve": [
+        "CVE-2024-39592"
+      ],
+      "title": "Update to Security Note released on July 2024 Patch Day: [ CVE-2024-39592 ] Missing Authorization check in SAP PDCE Product – SAP PDCE Versions – S4CORE 102, 103, S4COREOP 104, 105, 106, 107, 108 High",
+      "priority": "High",
+      "cvss": 7.7,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3483344 Update to Security Note released on July 2024 Patch Day: [ CVE-2024-39592 ] Missing Authorization check in SAP PDCE Product – SAP PDCE Versions – S4CORE 102, 103, S4COREOP 104, 105, 106, 107, 108 High 7.7"
+    },
+    {
+      "note_number": "3558755",
+      "cve": [
+        "CVE-2025-26662"
+      ],
+      "title": "[ CVE-2025-26662 ] Cross-Site Scripting (XSS) vulnerability in the SAP Data Services Management Console Product – SAP Data Services Management Console Version – SBOP DS JOB SERVER 4.3 Medium",
+      "priority": "Medium",
+      "cvss": 4.4,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3558755 [ CVE-2025-26662 ] Cross-Site Scripting (XSS) vulnerability in the SAP Data Services Management Console Product – SAP Data Services Management Console Version – SBOP DS JOB SERVER 4.3 Medium 4.4"
+    },
+    {
+      "note_number": "3571096",
+      "cve": [
+        "CVE-2025-43004"
+      ],
+      "title": "[ CVE-2025-43004 ] Security Misconfiguration Vulnerability in SAP Digital Manufacturing (Production Operator Dashboard) Product - SAP Digital Manufacturing (Production Operator Dashboard) Version – CTNR-DME-PODFOUNDATION-MS 1.0 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3571096 [ CVE-2025-43004 ] Security Misconfiguration Vulnerability in SAP Digital Manufacturing (Production Operator Dashboard) Product - SAP Digital Manufacturing (Production Operator Dashboard) Version – CTNR-DME-PODFOUNDATION-MS 1.0 Medium 5.3"
+    },
+    {
+      "note_number": "3574520",
+      "cve": [
+        "CVE-2025-43005"
+      ],
+      "title": "[ CVE-2025-43005 ] Information Disclosure vulnerability in SAP GUI for Windows Product - SAP GUI for Windows Version – BC-FES-GUI 8.00 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3574520 [ CVE-2025-43005 ] Information Disclosure vulnerability in SAP GUI for Windows Product - SAP GUI for Windows Version – BC-FES-GUI 8.00 Medium 4.3"
+    },
+    {
+      "note_number": "3577287",
+      "cve": [
+        "CVE-2025-31329"
+      ],
+      "title": "[ CVE-2025-31329 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP and ABAP Platform Product - SAP NetWeaver Application Server ABAP and ABAP Platform Versions - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 Medium",
+      "priority": "Medium",
+      "cvss": 6.2,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758"
+      ],
+      "status": "new",
+      "source_text": "3577287 [ CVE-2025-31329 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP and ABAP Platform Product - SAP NetWeaver Application Server ABAP and ABAP Platform Versions - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758 Medium 6.2"
+    },
+    {
+      "note_number": "3577300",
+      "cve": [
+        "CVE-2025-42997"
+      ],
+      "title": "[ CVE-2025-42997 ] Information Disclosure vulnerability in SAP Gateway Client Product - SAP Gateway Client Versions – SAP_GWFND 752, 753, 754, 755, 756, 757, 758 Medium",
+      "priority": "Medium",
+      "cvss": 6.6,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3577300 [ CVE-2025-42997 ] Information Disclosure vulnerability in SAP Gateway Client Product - SAP Gateway Client Versions – SAP_GWFND 752, 753, 754, 755, 756, 757, 758 Medium 6.6"
+    },
+    {
+      "note_number": "3578900",
+      "cve": [
+        "CVE-2025-30009",
+        "CVE-2025-30010",
+        "CVE-2025-30011",
+        "CVE-2025-30012",
+        "CVE-2025-30018"
+      ],
+      "title": "[ CVE-2025-30018 ] Multiple vulnerabilities in SAP Supplier Relationship Management (Live Auction Cockpit) Related CVE - CVE-2025-30009 , CVE-2025-30010 , CVE-2025-30011 , CVE-2025-30012 Product – SAP Supplier Relationship Management (Live Auction Cockpit) Version – SRM_SERVER 7.14 High",
+      "priority": "High",
+      "cvss": 8.6,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3578900 [ CVE-2025-30018 ] Multiple vulnerabilities in SAP Supplier Relationship Management (Live Auction Cockpit) Related CVE - CVE-2025-30009 , CVE-2025-30010 , CVE-2025-30011 , CVE-2025-30012 Product – SAP Supplier Relationship Management (Live Auction Cockpit) Version – SRM_SERVER 7.14 High 8.6"
+    },
+    {
+      "note_number": "3585992",
+      "cve": [
+        "CVE-2025-43008"
+      ],
+      "title": "[ CVE-2025-43008 ] Missing Authorization check in SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal Product – SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal Versions – S4HCMCPT 100, 101, SAP_HRCPT 600, 604, 608 Medium",
+      "priority": "Medium",
+      "cvss": 5.8,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3585992 [ CVE-2025-43008 ] Missing Authorization check in SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal Product – SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal Versions – S4HCMCPT 100, 101, SAP_HRCPT 600, 604, 608 Medium 5.8"
+    },
+    {
+      "note_number": "3585992",
+      "cve": [
+        "CVE-2025-43008"
+      ],
+      "title": "Update to Security Note released on May 2025 Patch Day: [ CVE-2025-43008 ] Missing Authorization check in SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal Product – SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal Versions – S4HCMCPT 100, 101, SAP_HRCPT 600, 604, 608 Medium",
+      "priority": "Medium",
+      "cvss": 5.8,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3585992 Update to Security Note released on May 2025 Patch Day: [ CVE-2025-43008 ] Missing Authorization check in SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal Product – SAP S/4HANA HCM Portugal and SAP ERP HCM Portugal Versions – S4HCMCPT 100, 101, SAP_HRCPT 600, 604, 608 Medium 5.8"
+    },
+    {
+      "note_number": "3586013",
+      "cve": [
+        "CVE-2025-43000"
+      ],
+      "title": "[ CVE-2025-43000 ] Information Disclosure Vulnerability in SAP Business Objects Business Intelligence Platform (PMW) Product – SAP Business Objects Business Intelligence Platform (PMW) Versions – ENTERPRISE 430, 2025, 2027 High",
+      "priority": "High",
+      "cvss": 7.9,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3586013 [ CVE-2025-43000 ] Information Disclosure Vulnerability in SAP Business Objects Business Intelligence Platform (PMW) Product – SAP Business Objects Business Intelligence Platform (PMW) Versions – ENTERPRISE 430, 2025, 2027 High 7.9"
+    },
+    {
+      "note_number": "3588455",
+      "cve": [
+        "CVE-2025-43006"
+      ],
+      "title": "[ CVE-2025-43006 ] Cross-Site Scripting (XSS) vulnerability in SAP Supplier Relationship Management (Master Data Management Catalog) Product – SAP Supplier Relationship Management (Master Data Management Catalog) Version – SRM_MDM_CAT 7.52 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3588455 [ CVE-2025-43006 ] Cross-Site Scripting (XSS) vulnerability in SAP Supplier Relationship Management (Master Data Management Catalog) Product – SAP Supplier Relationship Management (Master Data Management Catalog) Version – SRM_MDM_CAT 7.52 Medium 6.1"
+    },
+    {
+      "note_number": "3591978",
+      "cve": [
+        "CVE-2025-43011"
+      ],
+      "title": "[ CVE-2025-43011 ] Missing Authorization Check in SAP Landscape Transformation (PCL Basis) Product – SAP Landscape Transformation (PCL Basis) Versions – DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2018_1_752, 2020, S4CORE 102, 103, 104, 105, 106, 107, 108 High",
+      "priority": "High",
+      "cvss": 7.7,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3591978 [ CVE-2025-43011 ] Missing Authorization Check in SAP Landscape Transformation (PCL Basis) Product – SAP Landscape Transformation (PCL Basis) Versions – DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2018_1_752, 2020, S4CORE 102, 103, 104, 105, 106, 107, 108 High 7.7"
+    },
+    {
+      "note_number": "3591978",
+      "cve": [
+        "CVE-2025-43011"
+      ],
+      "title": "Update to Security Note released on May 2025 Patch Day: [ CVE-2025-43011 ] Missing Authorization Check in SAP Landscape Transformation (PCL Basis) Product – SAP Landscape Transformation (PCL Basis) Versions – DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2018_1_752, 2020, S4CORE 102, 103, 104, 105, 106, 107, 108 High",
+      "priority": "High",
+      "cvss": 7.7,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3591978 Update to Security Note released on May 2025 Patch Day: [ CVE-2025-43011 ] Missing Authorization Check in SAP Landscape Transformation (PCL Basis) Product – SAP Landscape Transformation (PCL Basis) Versions – DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2018_1_752, 2020, S4CORE 102, 103, 104, 105, 106, 107, 108 High 7.7"
+    },
+    {
+      "note_number": "3594142",
+      "cve": [
+        "CVE-2025-31324"
+      ],
+      "title": "Update to Security Note released on April 2025 Patch Day: [ CVE-2025-31324 ] Missing Authorization check in SAP NetWeaver (Visual Composer development server) Product – SAP NetWeaver (Visual Composer development server) Version – VCFRAMEWORK 7.50 Critical",
+      "priority": "Critical",
+      "cvss": 10.0,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3594142 Update to Security Note released on April 2025 Patch Day: [ CVE-2025-31324 ] Missing Authorization check in SAP NetWeaver (Visual Composer development server) Product – SAP NetWeaver (Visual Composer development server) Version – VCFRAMEWORK 7.50 Critical 10.0"
+    },
+    {
+      "note_number": "3596033",
+      "cve": [
+        "CVE-2025-43003"
+      ],
+      "title": "[ CVE-2025-43003 ] Information Disclosure vulnerability in SAP S/4HANA (Private Cloud & On-Premise) Product - SAP S/4HANA (Private Cloud & On-Premise) Versions - S4CRM 204, 205, 206, S4CEXT 107, 108, BBPCRM 702, 712, 713, 714 Medium",
+      "priority": "Medium",
+      "cvss": 6.4,
+      "affected_versions_raw": [
+        "S4CRM 204",
+        "205",
+        "206",
+        "S4CEXT 107",
+        "108",
+        "BBPCRM 702",
+        "712",
+        "713",
+        "714"
+      ],
+      "status": "new",
+      "source_text": "3596033 [ CVE-2025-43003 ] Information Disclosure vulnerability in SAP S/4HANA (Private Cloud & On-Premise) Product - SAP S/4HANA (Private Cloud & On-Premise) Versions - S4CRM 204, 205, 206, S4CEXT 107, 108, BBPCRM 702, 712, 713, 714 Medium 6.4"
+    },
+    {
+      "note_number": "3600859",
+      "cve": [
+        "CVE-2025-43010"
+      ],
+      "title": "[ CVE-2025-43010 ] Code injection vulnerability in SAP S/4HANA Cloud Private Edition or On Premise(SCM Master Data Layer (MDL)) Product - SAP S/4HANA Cloud Private Edition or on Premise (SCM Master Data Layer (MDL)) Versions – S4CORE 102, 103, 104, 105, 106, 107, 108, SCM_BASIS 700, 701, 702, 712, 713, 714 High",
+      "priority": "High",
+      "cvss": 8.3,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3600859 [ CVE-2025-43010 ] Code injection vulnerability in SAP S/4HANA Cloud Private Edition or On Premise(SCM Master Data Layer (MDL)) Product - SAP S/4HANA Cloud Private Edition or on Premise (SCM Master Data Layer (MDL)) Versions – S4CORE 102, 103, 104, 105, 106, 107, 108, SCM_BASIS 700, 701, 702, 712, 713, 714 High 8.3"
+    },
+    {
+      "note_number": "3604119",
+      "cve": [
+        "CVE-2025-42999"
+      ],
+      "title": "[ CVE-2025-42999 ] Insecure Deserialization in SAP NetWeaver (Visual Composer development server) Product – SAP NetWeaver (Visual Composer development server) Version – VCFRAMEWORK 7.50 Critical",
+      "priority": "Critical",
+      "cvss": 9.1,
+      "affected_versions_raw": [],
+      "status": "new",
+      "source_text": "3604119 [ CVE-2025-42999 ] Insecure Deserialization in SAP NetWeaver (Visual Composer development server) Product – SAP NetWeaver (Visual Composer development server) Version – VCFRAMEWORK 7.50 Critical 9.1"
+    }
+  ]
+}

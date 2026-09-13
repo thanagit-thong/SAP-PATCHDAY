@@ -1,0 +1,674 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/february-2026.html",
+    "retrieved_at": "2026-09-13T14:45:25.973110+00:00"
+  },
+  "patch_day": {
+    "year": 2026,
+    "month": 2,
+    "month_name": "February",
+    "scheduled_date": "2026-02-10"
+  },
+  "summary": {
+    "announced_new_notes": 26,
+    "announced_updates": null,
+    "parsed_records": 32,
+    "parsed_new_notes": 27,
+    "parsed_updates": 5
+  },
+  "security_notes": [
+    {
+      "note_number": "3215823",
+      "cve": [
+        "CVE-2026-23688"
+      ],
+      "title": "[ CVE-2026-23688 ] Missing Authorization check in SAP Fiori App (Manage Service Entry Sheets - Lean Services) Product - SAP Fiori App (Manage Service Entry Sheets - Lean Services) Version(s) - S4CORE 102, 103, 104, 105, 106, 107 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107"
+      ],
+      "status": "new",
+      "source_text": "3215823 [ CVE-2026-23688 ] Missing Authorization check in SAP Fiori App (Manage Service Entry Sheets - Lean Services) Product - SAP Fiori App (Manage Service Entry Sheets - Lean Services) Version(s) - S4CORE 102, 103, 104, 105, 106, 107 Medium 4.3"
+    },
+    {
+      "note_number": "3396109",
+      "cve": [
+        "CVE-2024-22128"
+      ],
+      "title": "Update to Security Note released on February 2024 Patch Day: [ CVE-2024-22128 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Business Client for HTML Product - SAP NWBC for HTML Versions – SAP_UI 754, SAP_UI 755, SAP_UI 756, SAP_UI 757, SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731 Medium",
+      "priority": "Medium",
+      "cvss": 4.7,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3396109 Update to Security Note released on February 2024 Patch Day: [ CVE-2024-22128 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Business Client for HTML Product - SAP NWBC for HTML Versions – SAP_UI 754, SAP_UI 755, SAP_UI 756, SAP_UI 757, SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731 Medium 4.7"
+    },
+    {
+      "note_number": "3503138",
+      "cve": [
+        "CVE-2025-0059"
+      ],
+      "title": "Update to Security Note released on January 2025 Patch Day: [ CVE-2025-0059 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Product – SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Version(s) – KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93, 9.12, 9.14 Medium",
+      "priority": "Medium",
+      "cvss": 6.0,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3503138 Update to Security Note released on January 2025 Patch Day: [ CVE-2025-0059 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Product – SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Version(s) – KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93, 9.12, 9.14 Medium 6.0"
+    },
+    {
+      "note_number": "3646297",
+      "cve": [
+        "CVE-2026-24314"
+      ],
+      "title": "[ CVE-2026-24314 ] Information Disclosure vulnerability in SAP S/4HANA (Manage Payment Media) Product - S/4HANA (Manage Payment Media) Version(s) - UIAPFI70 600, 700, 800, 900, 901, 902, UIS4H 109 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "UIAPFI70 600",
+        "700",
+        "800",
+        "900",
+        "901",
+        "902",
+        "UIS4H 109"
+      ],
+      "status": "new",
+      "source_text": "3646297 [ CVE-2026-24314 ] Information Disclosure vulnerability in SAP S/4HANA (Manage Payment Media) Product - S/4HANA (Manage Payment Media) Version(s) - UIAPFI70 600, 700, 800, 900, 901, 902, UIS4H 109 Medium 4.3"
+    },
+    {
+      "note_number": "3654236",
+      "cve": [
+        "CVE-2026-0490"
+      ],
+      "title": "[ CVE-2026-0490 ] Denial of service (DOS) in SAP BusinessObjects BI Platform Product - SAP BusinessObjects BI Platform Version(s) - ENTERPRISE 430, 2025, 2027 High",
+      "priority": "High",
+      "cvss": 7.5,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3654236 [ CVE-2026-0490 ] Denial of service (DOS) in SAP BusinessObjects BI Platform Product - SAP BusinessObjects BI Platform Version(s) - ENTERPRISE 430, 2025, 2027 High 7.5"
+    },
+    {
+      "note_number": "3672622",
+      "cve": [
+        "CVE-2026-0484"
+      ],
+      "title": "[ CVE-2026-0484 ] Missing Authorization check in SAP NetWeaver Application Server ABAP and SAP S/4HANA Product - SAP NetWeaver Application Server ABAP and SAP S/4HANA Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3672622 [ CVE-2026-0484 ] Missing Authorization check in SAP NetWeaver Application Server ABAP and SAP S/4HANA Product - SAP NetWeaver Application Server ABAP and SAP S/4HANA Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 6.5"
+    },
+    {
+      "note_number": "3672622",
+      "cve": [
+        "CVE-2026-0484"
+      ],
+      "title": "Update to Security Note released on February 2026 Patch Day: [ CVE-2026-0484 ] Missing Authorization check in SAP NetWeaver Application Server ABAP and SAP S/4HANA Product - SAP NetWeaver Application Server ABAP and SAP S/4HANA Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "updated",
+      "source_text": "3672622 Update to Security Note released on February 2026 Patch Day: [ CVE-2026-0484 ] Missing Authorization check in SAP NetWeaver Application Server ABAP and SAP S/4HANA Product - SAP NetWeaver Application Server ABAP and SAP S/4HANA Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 6.5"
+    },
+    {
+      "note_number": "3673213",
+      "cve": [
+        "CVE-2026-23686"
+      ],
+      "title": "[ CVE-2026-23686 ] CRLF Injection vulnerability in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java Version(s) - LMNWABASICAPPS 7.50 Low",
+      "priority": "Low",
+      "cvss": 3.4,
+      "affected_versions_raw": [
+        "LMNWABASICAPPS 7.50"
+      ],
+      "status": "new",
+      "source_text": "3673213 [ CVE-2026-23686 ] CRLF Injection vulnerability in SAP NetWeaver Application Server Java Product - SAP NetWeaver Application Server Java Version(s) - LMNWABASICAPPS 7.50 Low 3.4"
+    },
+    {
+      "note_number": "3674246",
+      "cve": [
+        "CVE-2026-0508"
+      ],
+      "title": "[ CVE-2026-0508 ] Open Redirect vulnerability in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 High",
+      "priority": "High",
+      "cvss": 7.3,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3674246 [ CVE-2026-0508 ] Open Redirect vulnerability in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 High 7.3"
+    },
+    {
+      "note_number": "3674774",
+      "cve": [
+        "CVE-2026-0509"
+      ],
+      "title": "[ CVE-2026-0509 ] Missing Authorization check in SAP NetWeaver Application Server ABAP and ABAP Platform Product - SAP NetWeaver Application Server ABAP and ABAP Platform Version(s) - KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, KERNEL 7.22, 7.53, 7.54, 7.77, 7.89, 7.93, 9.16, 9.18, 9.19 Critical",
+      "priority": "Critical",
+      "cvss": 9.6,
+      "affected_versions_raw": [
+        "KRNL64NUC 7.22",
+        "7.22EXT",
+        "KRNL64UC 7.22",
+        "7.22EXT",
+        "7.53",
+        "KERNEL 7.22",
+        "7.53",
+        "7.54",
+        "7.77",
+        "7.89",
+        "7.93",
+        "9.16",
+        "9.18",
+        "9.19"
+      ],
+      "status": "new",
+      "source_text": "3674774 [ CVE-2026-0509 ] Missing Authorization check in SAP NetWeaver Application Server ABAP and ABAP Platform Product - SAP NetWeaver Application Server ABAP and ABAP Platform Version(s) - KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, KERNEL 7.22, 7.53, 7.54, 7.77, 7.89, 7.93, 9.16, 9.18, 9.19 Critical 9.6"
+    },
+    {
+      "note_number": "3678009",
+      "cve": [
+        "CVE-2026-24326"
+      ],
+      "title": "[ CVE-2026-24326 ] Missing authorization check in SAP S/4HANA Defense & Security (Disconnected Operations) Product - SAP S/4HANA Defense & Security (Disconnected Operations) Version(s) - EA-DFPS 600, 603, 604, 605, 606, 616, 617, 618, 619, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "EA-DFPS 600",
+        "603",
+        "604",
+        "605",
+        "606",
+        "616",
+        "617",
+        "618",
+        "619",
+        "800",
+        "801",
+        "802",
+        "803",
+        "804",
+        "805",
+        "806",
+        "807",
+        "808",
+        "809"
+      ],
+      "status": "new",
+      "source_text": "3678009 [ CVE-2026-24326 ] Missing authorization check in SAP S/4HANA Defense & Security (Disconnected Operations) Product - SAP S/4HANA Defense & Security (Disconnected Operations) Version(s) - EA-DFPS 600, 603, 604, 605, 606, 616, 617, 618, 619, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809 Medium 4.3"
+    },
+    {
+      "note_number": "3678282",
+      "cve": [
+        "CVE-2026-0485"
+      ],
+      "title": "[ CVE-2026-0485 ] Denial of service (DOS) vulnerability in SAP BusinessObjects BI Platform Product - SAP BusinessObjects BI Platform Version(s) - ENTERPRISE 430, 2025, 2027 High",
+      "priority": "High",
+      "cvss": 7.5,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3678282 [ CVE-2026-0485 ] Denial of service (DOS) vulnerability in SAP BusinessObjects BI Platform Product - SAP BusinessObjects BI Platform Version(s) - ENTERPRISE 430, 2025, 2027 High 7.5"
+    },
+    {
+      "note_number": "3678313",
+      "cve": [
+        "CVE-2026-24320"
+      ],
+      "title": "[ CVE-2026-24320 ] Memory Corruption vulnerability in SAP NetWeaver and ABAP Platform (Application Server ABAP) Product - SAP NetWeaver and ABAP Platform (Application Server ABAP) Version(s) - KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, 8.04, KERNEL 7.22, 7.53, 7.54, 7.77, 7.89, 7.93, 8.04, 9.16, 9.17, 9.18 Low",
+      "priority": "Low",
+      "cvss": 3.1,
+      "affected_versions_raw": [
+        "KRNL64NUC 7.22",
+        "7.22EXT",
+        "KRNL64UC 7.22",
+        "7.22EXT",
+        "7.53",
+        "8.04",
+        "KERNEL 7.22",
+        "7.53",
+        "7.54",
+        "7.77",
+        "7.89",
+        "7.93",
+        "8.04",
+        "9.16",
+        "9.17",
+        "9.18"
+      ],
+      "status": "new",
+      "source_text": "3678313 [ CVE-2026-24320 ] Memory Corruption vulnerability in SAP NetWeaver and ABAP Platform (Application Server ABAP) Product - SAP NetWeaver and ABAP Platform (Application Server ABAP) Version(s) - KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, 8.04, KERNEL 7.22, 7.53, 7.54, 7.77, 7.89, 7.93, 8.04, 9.16, 9.17, 9.18 Low 3.1"
+    },
+    {
+      "note_number": "3678417",
+      "cve": [
+        "CVE-2026-0505",
+        "CVE-2026-24323"
+      ],
+      "title": "[Multiple CVEs] Multiple vulnerabilities in BSP Applications of SAP Document Management System Additional CVE - CVE-2026-0505 , CVE-2026-24323 Product - SAP Document Management System Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 602, 603, 604, 605, 606, 617 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "SAP_APPL 618",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "EA-APPL 600",
+        "602",
+        "603",
+        "604",
+        "605",
+        "606",
+        "617"
+      ],
+      "status": "new",
+      "source_text": "3678417 [Multiple CVEs] Multiple vulnerabilities in BSP Applications of SAP Document Management System Additional CVE - CVE-2026-0505 , CVE-2026-24323 Product - SAP Document Management System Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 602, 603, 604, 605, 606, 617 Medium 6.1"
+    },
+    {
+      "note_number": "3679346",
+      "cve": [
+        "CVE-2026-24319"
+      ],
+      "title": "[ CVE-2026-24319 ] Information Disclosure Vulnerability in SAP Business One (B1 Client Memory Dump Files) Product - SAP Business One (B1 Client Memory Dump Files) Version(s) - B1_ON_HANA 10.0, SAP-M-BO 10.0 Medium",
+      "priority": "Medium",
+      "cvss": 5.8,
+      "affected_versions_raw": [
+        "B1_ON_HANA 10.0",
+        "SAP-M-BO 10.0"
+      ],
+      "status": "new",
+      "source_text": "3679346 [ CVE-2026-24319 ] Information Disclosure Vulnerability in SAP Business One (B1 Client Memory Dump Files) Product - SAP Business One (B1 Client Memory Dump Files) Version(s) - B1_ON_HANA 10.0, SAP-M-BO 10.0 Medium 5.8"
+    },
+    {
+      "note_number": "3680390",
+      "cve": [
+        "CVE-2026-24327"
+      ],
+      "title": "[ CVE-2026-24327 ] Missing Authorization Check in SAP Strategic Enterprise Management (Balanced Scorecard in BSP Application) Product - SAP Strategic Enterprise Management (Balanced Scorecard in BSP Application) Version(s) - SEM-BW 600, 700, 602, 603, 604, 605, 634, 736, 746, 747, 748, 800 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "SEM-BW 600",
+        "700",
+        "602",
+        "603",
+        "604",
+        "605",
+        "634",
+        "736",
+        "746",
+        "747",
+        "748",
+        "800"
+      ],
+      "status": "new",
+      "source_text": "3680390 [ CVE-2026-24327 ] Missing Authorization Check in SAP Strategic Enterprise Management (Balanced Scorecard in BSP Application) Product - SAP Strategic Enterprise Management (Balanced Scorecard in BSP Application) Version(s) - SEM-BW 600, 700, 602, 603, 604, 605, 634, 736, 746, 747, 748, 800 Medium 4.3"
+    },
+    {
+      "note_number": "3680416",
+      "cve": [
+        "CVE-2026-23681"
+      ],
+      "title": "[ CVE-2026-23681 ] Missing Authorization check in a function module in SAP Support Tools Plug-In Product - SAP Support Tools Plug-In Version(s) - ST-PI 2008_1_700, 2008_1_710, 740, 758 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "ST-PI 2008_1_700",
+        "2008_1_710",
+        "740",
+        "758"
+      ],
+      "status": "new",
+      "source_text": "3680416 [ CVE-2026-23681 ] Missing Authorization check in a function module in SAP Support Tools Plug-In Product - SAP Support Tools Plug-In Version(s) - ST-PI 2008_1_700, 2008_1_710, 740, 758 Medium 4.3"
+    },
+    {
+      "note_number": "3687285",
+      "cve": [
+        "CVE-2026-23685"
+      ],
+      "title": "[ CVE-2026-23685 ] Insecure Deserialization vulnerability in SAP NetWeaver (JMS service) Product - SAP NetWeaver (JMS service) Version(s) - J2EE-FRMW 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 4.4,
+      "affected_versions_raw": [
+        "J2EE-FRMW 7.50"
+      ],
+      "status": "new",
+      "source_text": "3687285 [ CVE-2026-23685 ] Insecure Deserialization vulnerability in SAP NetWeaver (JMS service) Product - SAP NetWeaver (JMS service) Version(s) - J2EE-FRMW 7.50 Medium 4.4"
+    },
+    {
+      "note_number": "3687771",
+      "cve": [
+        "CVE-2026-24321"
+      ],
+      "title": "[ CVE-2026-24321 ] Information Disclosure vulnerability in SAP Commerce Cloud Product - SAP Commerce Cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [
+        "HY_COM 2205",
+        "COM_CLOUD 2211",
+        "2211-JDK21"
+      ],
+      "status": "new",
+      "source_text": "3687771 [ CVE-2026-24321 ] Information Disclosure vulnerability in SAP Commerce Cloud Product - SAP Commerce Cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Medium 5.3"
+    },
+    {
+      "note_number": "3688319",
+      "cve": [
+        "CVE-2026-24328"
+      ],
+      "title": "[ CVE-2026-24328 ] Open Redirection vulnerability in Business Server Pages Application (TAF_APPLAUNCHER) Product - Business Server Pages Application (TAF_APPLAUNCHER) Version(s) - ST-PI 2008_1_700, 2008_1_710, 740, 758 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "ST-PI 2008_1_700",
+        "2008_1_710",
+        "740",
+        "758"
+      ],
+      "status": "new",
+      "source_text": "3688319 [ CVE-2026-24328 ] Open Redirection vulnerability in Business Server Pages Application (TAF_APPLAUNCHER) Product - Business Server Pages Application (TAF_APPLAUNCHER) Version(s) - ST-PI 2008_1_700, 2008_1_710, 740, 758 Medium 6.1"
+    },
+    {
+      "note_number": "3689543",
+      "cve": [
+        "CVE-2026-23684"
+      ],
+      "title": "[ CVE-2026-23684 ] Race condition vulnerability in SAP Commerce Cloud Product - SAP Commerce Cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Medium",
+      "priority": "Medium",
+      "cvss": 5.9,
+      "affected_versions_raw": [
+        "HY_COM 2205",
+        "COM_CLOUD 2211",
+        "2211-JDK21"
+      ],
+      "status": "new",
+      "source_text": "3689543 [ CVE-2026-23684 ] Race condition vulnerability in SAP Commerce Cloud Product - SAP Commerce Cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, 2211-JDK21 Medium 5.9"
+    },
+    {
+      "note_number": "3691645",
+      "cve": [
+        "CVE-2026-0486"
+      ],
+      "title": "[ CVE-2026-0486 ] Missing Authorization Check in ABAP based SAP systems Product - ABAP based SAP systems Version(s) - ST-PI 2005_1_700, 2008_1_710, 740, 758 Medium",
+      "priority": "Medium",
+      "cvss": 5.0,
+      "affected_versions_raw": [
+        "ST-PI 2005_1_700",
+        "2008_1_710",
+        "740",
+        "758"
+      ],
+      "status": "new",
+      "source_text": "3691645 [ CVE-2026-0486 ] Missing Authorization Check in ABAP based SAP systems Product - ABAP based SAP systems Version(s) - ST-PI 2005_1_700, 2008_1_710, 740, 758 Medium 5.0"
+    },
+    {
+      "note_number": "3692405",
+      "cve": [
+        "CVE-2025-12383"
+      ],
+      "title": "[ CVE-2025-12383 ] Race Condition in SAP Commerce Cloud Product - SAP Commerce Cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, COM_CLOUD 2211-JDK21 High",
+      "priority": "High",
+      "cvss": 7.4,
+      "affected_versions_raw": [
+        "HY_COM 2205",
+        "COM_CLOUD 2211",
+        "COM_CLOUD 2211-JDK21"
+      ],
+      "status": "new",
+      "source_text": "3692405 [ CVE-2025-12383 ] Race Condition in SAP Commerce Cloud Product - SAP Commerce Cloud Version(s) - HY_COM 2205, COM_CLOUD 2211, COM_CLOUD 2211-JDK21 High 7.4"
+    },
+    {
+      "note_number": "3695912",
+      "cve": [
+        "CVE-2026-24324"
+      ],
+      "title": "[ CVE-2026-24324 ] Denial of service (DOS) vulnerability in SAP BusinessObjects Business Intelligence Platform (AdminTools) Product - SAP BusinessObjects Business Intelligence Platform (AdminTools) Version(s) - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3695912 [ CVE-2026-24324 ] Denial of service (DOS) vulnerability in SAP BusinessObjects Business Intelligence Platform (AdminTools) Product - SAP BusinessObjects Business Intelligence Platform (AdminTools) Version(s) - ENTERPRISE 430, 2025, 2027 Medium 6.5"
+    },
+    {
+      "note_number": "3695912",
+      "cve": [
+        "CVE-2026-24324"
+      ],
+      "title": "Update to Security Note released on February 2026 Patch Day: [ CVE-2026-24324 ] Denial of service (DOS) vulnerability in SAP BusinessObjects Business Intelligence Platform (AdminTools) Product - SAP BusinessObjects Business Intelligence Platform (AdminTools) Version(s) - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "updated",
+      "source_text": "3695912 Update to Security Note released on February 2026 Patch Day: [ CVE-2026-24324 ] Denial of service (DOS) vulnerability in SAP BusinessObjects Business Intelligence Platform (AdminTools) Product - SAP BusinessObjects Business Intelligence Platform (AdminTools) Version(s) - ENTERPRISE 430, 2025, 2027 Medium 6.5"
+    },
+    {
+      "note_number": "3697099",
+      "cve": [
+        "CVE-2026-0488"
+      ],
+      "title": "[ CVE-2026-0488 ] Code Injection vulnerability in SAP CRM and SAP S/4HANA (Scripting Editor) Product - SAP CRM and SAP S/4HANA (Scripting Editor) Version(s) - S4FND 102, 103, 104, 105, 106, 107, 108, 109, SAP_ABA 700, WEBCUIF 700, 701, 730, 731, 746, 747, 748, 800, 801 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [
+        "S4FND 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "SAP_ABA 700",
+        "WEBCUIF 700",
+        "701",
+        "730",
+        "731",
+        "746",
+        "747",
+        "748",
+        "800",
+        "801"
+      ],
+      "status": "new",
+      "source_text": "3697099 [ CVE-2026-0488 ] Code Injection vulnerability in SAP CRM and SAP S/4HANA (Scripting Editor) Product - SAP CRM and SAP S/4HANA (Scripting Editor) Version(s) - S4FND 102, 103, 104, 105, 106, 107, 108, 109, SAP_ABA 700, WEBCUIF 700, 701, 730, 731, 746, 747, 748, 800, 801 Critical 9.9"
+    },
+    {
+      "note_number": "3697256",
+      "cve": [
+        "CVE-2026-24325"
+      ],
+      "title": "[ CVE-2026-24325 ] Cross Site Scripting (XSS) vulnerability in SAP BusinessObjects Enterprise (Central Management Console) Product - SAP BusinessObjects Enterprise (Central Management Console) Version(s) - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 4.8,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3697256 [ CVE-2026-24325 ] Cross Site Scripting (XSS) vulnerability in SAP BusinessObjects Enterprise (Central Management Console) Product - SAP BusinessObjects Enterprise (Central Management Console) Version(s) - ENTERPRISE 430, 2025, 2027 Medium 4.8"
+    },
+    {
+      "note_number": "3697567",
+      "cve": [
+        "CVE-2026-23687"
+      ],
+      "title": "[ CVE-2026-23687 ] XML Signature Wrapping in SAP NetWeaver AS ABAP and ABAP Platform Product - SAP NetWeaver AS ABAP and ABAP Platform Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 804, SAP_BASIS 916, SAP_BASIS 917, SAP_BASIS 918 High",
+      "priority": "High",
+      "cvss": 8.8,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 804",
+        "SAP_BASIS 916",
+        "SAP_BASIS 917",
+        "SAP_BASIS 918"
+      ],
+      "status": "new",
+      "source_text": "3697567 [ CVE-2026-23687 ] XML Signature Wrapping in SAP NetWeaver AS ABAP and ABAP Platform Product - SAP NetWeaver AS ABAP and ABAP Platform Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 804, SAP_BASIS 916, SAP_BASIS 917, SAP_BASIS 918 High 8.8"
+    },
+    {
+      "note_number": "3697567",
+      "cve": [
+        "CVE-2026-23687"
+      ],
+      "title": "Update to Security Note released on February 2026 Patch Day: [ CVE-2026-23687 ] XML Signature Wrapping in SAP NetWeaver AS ABAP and ABAP Platform Product - SAP NetWeaver AS ABAP and ABAP Platform Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 804, SAP_BASIS 916, SAP_BASIS 917, SAP_BASIS 918 High",
+      "priority": "High",
+      "cvss": 8.8,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 804",
+        "SAP_BASIS 916",
+        "SAP_BASIS 917",
+        "SAP_BASIS 918"
+      ],
+      "status": "updated",
+      "source_text": "3697567 Update to Security Note released on February 2026 Patch Day: [ CVE-2026-23687 ] XML Signature Wrapping in SAP NetWeaver AS ABAP and ABAP Platform Product - SAP NetWeaver AS ABAP and ABAP Platform Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 804, SAP_BASIS 916, SAP_BASIS 917, SAP_BASIS 918 High 8.8"
+    },
+    {
+      "note_number": "3703092",
+      "cve": [
+        "CVE-2026-23689"
+      ],
+      "title": "[ CVE-2026-23689 ] Denial of service (DOS) in SAP Supply Chain Management Product - SAP Supply Chain Management Version(s) - SCMAPO 713, 714, SCM 700, 701, 702, 712 High",
+      "priority": "High",
+      "cvss": 7.7,
+      "affected_versions_raw": [
+        "SCMAPO 713",
+        "714",
+        "SCM 700",
+        "701",
+        "702",
+        "712"
+      ],
+      "status": "new",
+      "source_text": "3703092 [ CVE-2026-23689 ] Denial of service (DOS) in SAP Supply Chain Management Product - SAP Supply Chain Management Version(s) - SCMAPO 713, 714, SCM 700, 701, 702, 712 High 7.7"
+    },
+    {
+      "note_number": "3705882",
+      "cve": [
+        "CVE-2026-24322"
+      ],
+      "title": "[ CVE-2026-24322 ] Missing Authorization check in SAP Solution Tools Plug-In (ST-PI) Product - SAP Solution Tools Plug-In (ST-PI) Version(s) - ST-PI 2008_1_700, 2008_1_710, 740, 758 High",
+      "priority": "High",
+      "cvss": 7.7,
+      "affected_versions_raw": [
+        "ST-PI 2008_1_700",
+        "2008_1_710",
+        "740",
+        "758"
+      ],
+      "status": "new",
+      "source_text": "3705882 [ CVE-2026-24322 ] Missing Authorization check in SAP Solution Tools Plug-In (ST-PI) Product - SAP Solution Tools Plug-In (ST-PI) Version(s) - ST-PI 2008_1_700, 2008_1_710, 740, 758 High 7.7"
+    },
+    {
+      "note_number": "3710111",
+      "cve": [
+        "CVE-2026-24312"
+      ],
+      "title": "[ CVE-2026-24312 ] Missing authorization check in SAP Business Workflow Product - SAP Business Workflow Version(s) - SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 5.2,
+      "affected_versions_raw": [
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3710111 [ CVE-2026-24312 ] Missing authorization check in SAP Business Workflow Product - SAP Business Workflow Version(s) - SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 5.2"
+    }
+  ]
+}

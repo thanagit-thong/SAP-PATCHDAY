@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/april-2026.html",
+    "retrieved_at": "2026-09-13T14:45:29.907955+00:00"
+  },
+  "patch_day": {
+    "year": 2026,
+    "month": 4,
+    "month_name": "April",
+    "scheduled_date": "2026-04-14"
+  },
+  "summary": {
+    "announced_new_notes": 19,
+    "announced_updates": 1,
+    "parsed_records": 21,
+    "parsed_new_notes": 20,
+    "parsed_updates": 1
+  },
+  "security_notes": [
+    {
+      "note_number": "3530544",
+      "cve": [
+        "CVE-2025-42899"
+      ],
+      "title": "Update to Security Note released on November 2025 Patch Day: [ CVE-2025-42899 ] Missing Authorization check in SAP S4CORE (Manage Journal Entries) Product - SAP S4CORE (Manage Journal Entries) Version(s) - S4CORE 104, 105, 106, 107, 108 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "S4CORE 104",
+        "105",
+        "106",
+        "107",
+        "108"
+      ],
+      "status": "updated",
+      "source_text": "3530544 Update to Security Note released on November 2025 Patch Day: [ CVE-2025-42899 ] Missing Authorization check in SAP S4CORE (Manage Journal Entries) Product - SAP S4CORE (Manage Journal Entries) Version(s) - S4CORE 104, 105, 106, 107, 108 Medium 4.3"
+    },
+    {
+      "note_number": "3645228",
+      "cve": [
+        "CVE-2026-0512"
+      ],
+      "title": "[ CVE-2026-0512 ] Cross-Site Scripting (XSS) vulnerability in SAP Supplier Relationship Management (SICF Handler in SRM Catalog) Product - SAP Supplier Relationship Management (SICF Handler in SRM Catalog) Version(s) - SRM_SERVER 702, 713, 714 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "SRM_SERVER 702",
+        "713",
+        "714"
+      ],
+      "status": "new",
+      "source_text": "3645228 [ CVE-2026-0512 ] Cross-Site Scripting (XSS) vulnerability in SAP Supplier Relationship Management (SICF Handler in SRM Catalog) Product - SAP Supplier Relationship Management (SICF Handler in SRM Catalog) Version(s) - SRM_SERVER 702, 713, 714 Medium 6.1"
+    },
+    {
+      "note_number": "3665042",
+      "cve": [
+        "CVE-2026-27680"
+      ],
+      "title": "[ CVE-2026-27680 ] CSS Injection vulnerability in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Application Server ABAP Version(s) - SAP_UI 758, 816 Low",
+      "priority": "Low",
+      "cvss": 3.1,
+      "affected_versions_raw": [
+        "SAP_UI 758",
+        "816"
+      ],
+      "status": "new",
+      "source_text": "3665042 [ CVE-2026-27680 ] CSS Injection vulnerability in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Application Server ABAP Version(s) - SAP_UI 758, 816 Low 3.1"
+    },
+    {
+      "note_number": "3680767",
+      "cve": [
+        "CVE-2026-34264"
+      ],
+      "title": "[ CVE-2026-34264 ] Information Disclosure vulnerability in SAP Human Capital Management for SAP S/4HANA Product - SAP Human Capital Management for SAP S/4HANA Version(s) - S4HCMRXX 100, 101, 102, SAP_HRRXX 600, 604, 608 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "S4HCMRXX 100",
+        "101",
+        "102",
+        "SAP_HRRXX 600",
+        "604",
+        "608"
+      ],
+      "status": "new",
+      "source_text": "3680767 [ CVE-2026-34264 ] Information Disclosure vulnerability in SAP Human Capital Management for SAP S/4HANA Product - SAP Human Capital Management for SAP S/4HANA Version(s) - S4HCMRXX 100, 101, 102, SAP_HRRXX 600, 604, 608 Medium 6.5"
+    },
+    {
+      "note_number": "3692004",
+      "cve": [
+        "CVE-2026-34257"
+      ],
+      "title": "[ CVE-2026-34257 ] Open Redirect vulnerability in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Application Server ABAP Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3692004 [ CVE-2026-34257 ] Open Redirect vulnerability in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Application Server ABAP Version(s) - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 6.1"
+    },
+    {
+      "note_number": "3696239",
+      "cve": [
+        "CVE-2025-64775"
+      ],
+      "title": "[ CVE-2025-64775 ] Denial of Service Vulnerability in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3696239 [ CVE-2025-64775 ] Denial of Service Vulnerability in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 Medium 6.5"
+    },
+    {
+      "note_number": "3698216",
+      "cve": [
+        "CVE-2026-27683"
+      ],
+      "title": "[ CVE-2026-27683 ] Reflected cross site scripting vulnerability in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 4.1,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3698216 [ CVE-2026-27683 ] Reflected cross site scripting vulnerability in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 Medium 4.1"
+    },
+    {
+      "note_number": "3702191",
+      "cve": [
+        "CVE-2026-24318"
+      ],
+      "title": "[ CVE-2026-24318 ] Insecure Session Management vulnerability in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 Medium",
+      "priority": "Medium",
+      "cvss": 4.2,
+      "affected_versions_raw": [
+        "ENTERPRISE 430",
+        "2025",
+        "2027"
+      ],
+      "status": "new",
+      "source_text": "3702191 [ CVE-2026-24318 ] Insecure Session Management vulnerability in SAP BusinessObjects Business Intelligence Platform Product - SAP BusinessObjects Business Intelligence Platform Version(s) - ENTERPRISE 430, 2025, 2027 Medium 4.2"
+    },
+    {
+      "note_number": "3703276",
+      "cve": [
+        "CVE-2026-27672"
+      ],
+      "title": "[ CVE-2026-27672 ] Missing Authorization check in Material Master Application Product - Material Master Application Version(s) - S4CORE 102, 103, 104, 105, 106, 107, 108, 109, SCM_BASIS 700, SCM_BASIS 701, SCM_BASIS 702, SCM_BASIS 712, SCM_BASIS 713, SCM_BASIS 714 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "SCM_BASIS 700",
+        "SCM_BASIS 701",
+        "SCM_BASIS 702",
+        "SCM_BASIS 712",
+        "SCM_BASIS 713",
+        "SCM_BASIS 714"
+      ],
+      "status": "new",
+      "source_text": "3703276 [ CVE-2026-27672 ] Missing Authorization check in Material Master Application Product - Material Master Application Version(s) - S4CORE 102, 103, 104, 105, 106, 107, 108, 109, SCM_BASIS 700, SCM_BASIS 701, SCM_BASIS 702, SCM_BASIS 712, SCM_BASIS 713, SCM_BASIS 714 Medium 4.3"
+    },
+    {
+      "note_number": "3703813",
+      "cve": [
+        "CVE-2026-27673"
+      ],
+      "title": "[ CVE-2026-27673 ] Missing Authorization Check in SAP S/4HANA (Private Cloud and On-Premise) Product - SAP S/4HANA (Private Cloud and On-Premise) Version(s) - S4CORE 105, 106, 107, 108, 109, FI-CA 606, 616, 617, 618 Medium",
+      "priority": "Medium",
+      "cvss": 4.9,
+      "affected_versions_raw": [
+        "S4CORE 105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "FI-CA 606",
+        "616",
+        "617",
+        "618"
+      ],
+      "status": "new",
+      "source_text": "3703813 [ CVE-2026-27673 ] Missing Authorization Check in SAP S/4HANA (Private Cloud and On-Premise) Product - SAP S/4HANA (Private Cloud and On-Premise) Version(s) - S4CORE 105, 106, 107, 108, 109, FI-CA 606, 616, 617, 618 Medium 4.9"
+    },
+    {
+      "note_number": "3705094",
+      "cve": [
+        "CVE-2026-34261"
+      ],
+      "title": "[ CVE-2026-34261 ] Missing Authorization check in SAP Business Analytics and SAP Content Management Product - SAP Business Analytics and SAP Content Management Version(s) - S4HCMRXX 100, 101, 102, SAP_HRRXX 600, 604, 608 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "S4HCMRXX 100",
+        "101",
+        "102",
+        "SAP_HRRXX 600",
+        "604",
+        "608"
+      ],
+      "status": "new",
+      "source_text": "3705094 [ CVE-2026-34261 ] Missing Authorization check in SAP Business Analytics and SAP Content Management Product - SAP Business Analytics and SAP Content Management Version(s) - S4HCMRXX 100, 101, 102, SAP_HRRXX 600, 604, 608 Medium 6.5"
+    },
+    {
+      "note_number": "3711682",
+      "cve": [
+        "CVE-2026-27676"
+      ],
+      "title": "[ CVE-2026-27676 ] Missing Authorization check in SAP S/4HANA OData Service (Manage Technical Object Structures) Product - SAP S/4HANA OData Service (Manage Technical Object Structures) Version(s) - S4CORE 109 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "S4CORE 109"
+      ],
+      "status": "new",
+      "source_text": "3711682 [ CVE-2026-27676 ] Missing Authorization check in SAP S/4HANA OData Service (Manage Technical Object Structures) Product - SAP S/4HANA OData Service (Manage Technical Object Structures) Version(s) - S4CORE 109 Medium 4.3"
+    },
+    {
+      "note_number": "3715097",
+      "cve": [
+        "CVE-2026-27677"
+      ],
+      "title": "[ CVE-2026-27677 ] Missing Authorization check in SAP S/4HANA OData Service (Manage Reference Equipment) Product - SAP S/4HANA OData Service (Manage Reference Equipment) Version(s) - S4CORE 109 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "S4CORE 109"
+      ],
+      "status": "new",
+      "source_text": "3715097 [ CVE-2026-27677 ] Missing Authorization check in SAP S/4HANA OData Service (Manage Reference Equipment) Product - SAP S/4HANA OData Service (Manage Reference Equipment) Version(s) - S4CORE 109 Medium 6.5"
+    },
+    {
+      "note_number": "3715177",
+      "cve": [
+        "CVE-2026-27678"
+      ],
+      "title": "[ CVE-2026-27678 ] Missing Authorization check in SAP S/4HANA Backend OData Service (Manage Reference Structures) Product - SAP S/4HANA Backend OData Service (Manage Reference Structures) Version(s) - S4CORE 109 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "S4CORE 109"
+      ],
+      "status": "new",
+      "source_text": "3715177 [ CVE-2026-27678 ] Missing Authorization check in SAP S/4HANA Backend OData Service (Manage Reference Structures) Product - SAP S/4HANA Backend OData Service (Manage Reference Structures) Version(s) - S4CORE 109 Medium 6.5"
+    },
+    {
+      "note_number": "3716767",
+      "cve": [
+        "CVE-2026-27679"
+      ],
+      "title": "[ CVE-2026-27679 ] Missing Authorization check in SAP S/4HANA Frontend OData Service (Manage Reference Structures) Product - SAP S/4HANA Frontend OData Service (Manage Reference Structures) Version(s) - UIS4H 109 Medium",
+      "priority": "Medium",
+      "cvss": 6.5,
+      "affected_versions_raw": [
+        "UIS4H 109"
+      ],
+      "status": "new",
+      "source_text": "3716767 [ CVE-2026-27679 ] Missing Authorization check in SAP S/4HANA Frontend OData Service (Manage Reference Structures) Product - SAP S/4HANA Frontend OData Service (Manage Reference Structures) Version(s) - UIS4H 109 Medium 6.5"
+    },
+    {
+      "note_number": "3719353",
+      "cve": [
+        "CVE-2026-27681"
+      ],
+      "title": "[ CVE-2026-27681 ] SQL Injection vulnerability in SAP Business Planning and Consolidation and SAP Business Warehouse Product - SAP Business Planning and Consolidation and SAP Business Warehouse Version(s) - HANABPC 810, BPC4HANA 300, SAP_BW 750, 752, 753, 754, 755, 756, 757, 758, 816 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [
+        "HANABPC 810",
+        "BPC4HANA 300",
+        "SAP_BW 750",
+        "752",
+        "753",
+        "754",
+        "755",
+        "756",
+        "757",
+        "758",
+        "816"
+      ],
+      "status": "new",
+      "source_text": "3719353 [ CVE-2026-27681 ] SQL Injection vulnerability in SAP Business Planning and Consolidation and SAP Business Warehouse Product - SAP Business Planning and Consolidation and SAP Business Warehouse Version(s) - HANABPC 810, BPC4HANA 300, SAP_BW 750, 752, 753, 754, 755, 756, 757, 758, 816 Critical 9.9"
+    },
+    {
+      "note_number": "3719397",
+      "cve": [
+        "CVE-2026-27674"
+      ],
+      "title": "[ CVE-2026-27674 ] Code Injection vulnerability in SAP NetWeaver Application Server Java (Web Dynpro Java) Product - SAP NetWeaver Application Server Java (Web Dynpro Java) Version(s) - WD-RUNTIME 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "WD-RUNTIME 7.50"
+      ],
+      "status": "new",
+      "source_text": "3719397 [ CVE-2026-27674 ] Code Injection vulnerability in SAP NetWeaver Application Server Java (Web Dynpro Java) Product - SAP NetWeaver Application Server Java (Web Dynpro Java) Version(s) - WD-RUNTIME 7.50 Medium 6.1"
+    },
+    {
+      "note_number": "3723097",
+      "cve": [
+        "CVE-2026-27675"
+      ],
+      "title": "[ CVE-2026-27675 ] Code Injection vulnerability in SAP Landscape Transformation Product - SAP Landscape Transformation Version(s) - DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2011_1_752, 2020, S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Low",
+      "priority": "Low",
+      "cvss": 2.0,
+      "affected_versions_raw": [
+        "DMIS 2011_1_700",
+        "2011_1_710",
+        "2011_1_730",
+        "2011_1_731",
+        "2011_1_752",
+        "2020",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109"
+      ],
+      "status": "new",
+      "source_text": "3723097 [ CVE-2026-27675 ] Code Injection vulnerability in SAP Landscape Transformation Product - SAP Landscape Transformation Version(s) - DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2011_1_752, 2020, S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Low 2.0"
+    },
+    {
+      "note_number": "3730639",
+      "cve": [
+        "CVE-2026-34262"
+      ],
+      "title": "[ CVE-2026-34262 ] Information Disclosure Vulnerability in SAP HANA Cockpit and HANA Database Explorer Product - SAP HANA Cockpit and HANA Database Explorer Version(s) - SAP_HANA_COCKPIT 2.0 Medium",
+      "priority": "Medium",
+      "cvss": 5.0,
+      "affected_versions_raw": [
+        "SAP_HANA_COCKPIT 2.0"
+      ],
+      "status": "new",
+      "source_text": "3730639 [ CVE-2026-34262 ] Information Disclosure Vulnerability in SAP HANA Cockpit and HANA Database Explorer Product - SAP HANA Cockpit and HANA Database Explorer Version(s) - SAP_HANA_COCKPIT 2.0 Medium 5.0"
+    },
+    {
+      "note_number": "3731908",
+      "cve": [
+        "CVE-2026-34256"
+      ],
+      "title": "[ CVE-2026-34256 ] Missing Authorization check in SAP ERP and SAP S/4 HANA (Private Cloud and On-Premise) Product - SAP ERP and SAP S/4 HANA (Private Cloud and On-Premise) Version(s) - SAP_FIN 618, 720, 730, EA-FIN 617, 700, SAPSCORE 135, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 602, 603, 604, 605, 606 High",
+      "priority": "High",
+      "cvss": 7.1,
+      "affected_versions_raw": [
+        "SAP_FIN 618",
+        "720",
+        "730",
+        "EA-FIN 617",
+        "700",
+        "SAPSCORE 135",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "EA-APPL 600",
+        "602",
+        "603",
+        "604",
+        "605",
+        "606"
+      ],
+      "status": "new",
+      "source_text": "3731908 [ CVE-2026-34256 ] Missing Authorization check in SAP ERP and SAP S/4 HANA (Private Cloud and On-Premise) Product - SAP ERP and SAP S/4 HANA (Private Cloud and On-Premise) Version(s) - SAP_FIN 618, 720, 730, EA-FIN 617, 700, SAPSCORE 135, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 602, 603, 604, 605, 606 High 7.1"
+    },
+    {
+      "note_number": "3747787",
+      "cve": [],
+      "title": "Malicious open-source packages in SAP Cloud Application Programming Model & MTA Build Tool Product - SAP Cloud Application Programming Model & MTA Build Tool Package versions: cap-js/sqlite - v2.2.2, cap-js/postgres - v2.2.2, cap-js/db-service - v2.10.1, mbt 1.2.48 Critical",
+      "priority": "Critical",
+      "cvss": 0.0,
+      "affected_versions_raw": [
+        "cap-js/sqlite - v2.2.2",
+        "cap-js/postgres - v2.2.2",
+        "cap-js/db-service - v2.10.1",
+        "mbt 1.2.48"
+      ],
+      "status": "new",
+      "source_text": "3747787 Malicious open-source packages in SAP Cloud Application Programming Model & MTA Build Tool Product - SAP Cloud Application Programming Model & MTA Build Tool Package versions: cap-js/sqlite - v2.2.2, cap-js/postgres - v2.2.2, cap-js/db-service - v2.10.1, mbt 1.2.48 Critical 0.0"
+    }
+  ]
+}

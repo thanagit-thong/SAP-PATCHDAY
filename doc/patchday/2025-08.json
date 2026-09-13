@@ -1,0 +1,386 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "provider": "SAP",
+    "type": "SAP Security Patch Day",
+    "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html",
+    "retrieved_at": "2026-09-13T14:45:14.971351+00:00"
+  },
+  "patch_day": {
+    "year": 2025,
+    "month": 8,
+    "month_name": "August",
+    "scheduled_date": "2025-08-12"
+  },
+  "summary": {
+    "announced_new_notes": 15,
+    "announced_updates": null,
+    "parsed_records": 19,
+    "parsed_new_notes": 15,
+    "parsed_updates": 4
+  },
+  "security_notes": [
+    {
+      "note_number": "3503138",
+      "cve": [
+        "CVE-2025-0059"
+      ],
+      "title": "Update to Security Note released on January 2025 Patch Day: [ CVE-2025-0059 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Product – SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Version – KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93, 9.12, 9.14 Medium",
+      "priority": "Medium",
+      "cvss": 6.0,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3503138 Update to Security Note released on January 2025 Patch Day: [ CVE-2025-0059 ] Information Disclosure vulnerability in SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Product – SAP NetWeaver Application Server ABAP (applications based on SAP GUI for HTML) Version – KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93, 9.12, 9.14 Medium 6.0"
+    },
+    {
+      "note_number": "3561792",
+      "cve": [
+        "CVE-2025-23194"
+      ],
+      "title": "Update to Security Note released on March 2025 Patch Day: [ CVE-2025-23194 ] Missing Authentication check in SAP NetWeaver Enterprise Portal (OBN component) Product – SAP NetWeaver Enterprise Portal (OBN component) Version – EP-RUNTIME 7.50 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3561792 Update to Security Note released on March 2025 Patch Day: [ CVE-2025-23194 ] Missing Authentication check in SAP NetWeaver Enterprise Portal (OBN component) Product – SAP NetWeaver Enterprise Portal (OBN component) Version – EP-RUNTIME 7.50 Medium 5.3"
+    },
+    {
+      "note_number": "3577131",
+      "cve": [
+        "CVE-2025-31331"
+      ],
+      "title": "Update to Security Note released on April 2025 Patch Day: [ CVE-2025-31331 ] Authorization Bypass vulnerability in SAP NetWeaver Product – SAP NetWeaver Version – SAP_ABA 700, 701, 702, 731, 740, 750, 751, 752, 75C, 75D, 75E, 75F, 75G, 75H, 75I Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3577131 Update to Security Note released on April 2025 Patch Day: [ CVE-2025-31331 ] Authorization Bypass vulnerability in SAP NetWeaver Product – SAP NetWeaver Version – SAP_ABA 700, 701, 702, 731, 740, 750, 751, 752, 75C, 75D, 75E, 75F, 75G, 75H, 75I Medium 4.3"
+    },
+    {
+      "note_number": "3581961",
+      "cve": [
+        "CVE-2025-27429"
+      ],
+      "title": "Update to Security Note released on April 2025 Patch Day: [ CVE-2025-27429 ] Code Injection Vulnerability in SAP S/4HANA (Private Cloud or On-Premise) Product – SAP S/4HANA (Private Cloud or On-Premise) Version – S4CORE 102, 103, 104, 105, 106, 107, 108 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [],
+      "status": "updated",
+      "source_text": "3581961 Update to Security Note released on April 2025 Patch Day: [ CVE-2025-27429 ] Code Injection Vulnerability in SAP S/4HANA (Private Cloud or On-Premise) Product – SAP S/4HANA (Private Cloud or On-Premise) Version – S4CORE 102, 103, 104, 105, 106, 107, 108 Critical 9.9"
+    },
+    {
+      "note_number": "3585491",
+      "cve": [
+        "CVE-2025-42945"
+      ],
+      "title": "[ CVE-2025-42945 ] HTML Injection vulnerability in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Application Server ABAP Version - KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "KRNL64UC 7.53",
+        "KERNEL 7.53",
+        "7.54",
+        "7.77",
+        "7.89",
+        "7.93"
+      ],
+      "status": "new",
+      "source_text": "3585491 [ CVE-2025-42945 ] HTML Injection vulnerability in SAP NetWeaver Application Server ABAP Product - SAP NetWeaver Application Server ABAP Version - KRNL64UC 7.53, KERNEL 7.53, 7.54, 7.77, 7.89, 7.93 Medium 6.1"
+    },
+    {
+      "note_number": "3597355",
+      "cve": [
+        "CVE-2025-42942"
+      ],
+      "title": "[ CVE-2025-42942 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server for ABAP Product - SAP NetWeaver Application Server for ABAP Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816, SAP_BASIS 914, SAP_BASIS 916 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816",
+        "SAP_BASIS 914",
+        "SAP_BASIS 916"
+      ],
+      "status": "new",
+      "source_text": "3597355 [ CVE-2025-42942 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server for ABAP Product - SAP NetWeaver Application Server for ABAP Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816, SAP_BASIS 914, SAP_BASIS 916 Medium 6.1"
+    },
+    {
+      "note_number": "3601480",
+      "cve": [
+        "CVE-2025-42935"
+      ],
+      "title": "[ CVE-2025-42935 ] Information Disclosure vulnerability in SAP NetWeaver AS for ABAP and ABAP Platform(Internet Communication Manager) Product - SAP NetWeaver AS for ABAP and ABAP Platform(Internet Communication Manager) Version - KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, KERNEL 7.22, 7.53, 7.54, 7.77, 7.89, 7.93, 9.14, 9.15, 9.16 Medium",
+      "priority": "Medium",
+      "cvss": 4.1,
+      "affected_versions_raw": [
+        "KRNL64NUC 7.22",
+        "7.22EXT",
+        "KRNL64UC 7.22",
+        "7.22EXT",
+        "7.53",
+        "KERNEL 7.22",
+        "7.53",
+        "7.54",
+        "7.77",
+        "7.89",
+        "7.93",
+        "9.14",
+        "9.15",
+        "9.16"
+      ],
+      "status": "new",
+      "source_text": "3601480 [ CVE-2025-42935 ] Information Disclosure vulnerability in SAP NetWeaver AS for ABAP and ABAP Platform(Internet Communication Manager) Product - SAP NetWeaver AS for ABAP and ABAP Platform(Internet Communication Manager) Version - KRNL64NUC 7.22, 7.22EXT, KRNL64UC 7.22, 7.22EXT, 7.53, KERNEL 7.22, 7.53, 7.54, 7.77, 7.89, 7.93, 9.14, 9.15, 9.16 Medium 4.1"
+    },
+    {
+      "note_number": "3602656",
+      "cve": [
+        "CVE-2025-42936"
+      ],
+      "title": "[ CVE-2025-42936 ] Missing Authorization check in SAP NetWeaver Application Server for ABAP Product - SAP NetWeaver Application Server for ABAP Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium",
+      "priority": "Medium",
+      "cvss": 5.4,
+      "affected_versions_raw": [
+        "SAP_BASIS 700",
+        "SAP_BASIS 701",
+        "SAP_BASIS 702",
+        "SAP_BASIS 731",
+        "SAP_BASIS 740",
+        "SAP_BASIS 750",
+        "SAP_BASIS 751",
+        "SAP_BASIS 752",
+        "SAP_BASIS 753",
+        "SAP_BASIS 754",
+        "SAP_BASIS 755",
+        "SAP_BASIS 756",
+        "SAP_BASIS 757",
+        "SAP_BASIS 758",
+        "SAP_BASIS 816"
+      ],
+      "status": "new",
+      "source_text": "3602656 [ CVE-2025-42936 ] Missing Authorization check in SAP NetWeaver Application Server for ABAP Product - SAP NetWeaver Application Server for ABAP Version - SAP_BASIS 700, SAP_BASIS 701, SAP_BASIS 702, SAP_BASIS 731, SAP_BASIS 740, SAP_BASIS 750, SAP_BASIS 751, SAP_BASIS 752, SAP_BASIS 753, SAP_BASIS 754, SAP_BASIS 755, SAP_BASIS 756, SAP_BASIS 757, SAP_BASIS 758, SAP_BASIS 816 Medium 5.4"
+    },
+    {
+      "note_number": "3611184",
+      "cve": [
+        "CVE-2025-42975",
+        "CVE-2025-42976"
+      ],
+      "title": "[ CVE-2025-42976 ] Multiple vulnerabilities in SAP NetWeaver Application Server ABAP (BIC Document) Additional CVE - CVE-2025-42975 Product - SAP NetWeaver Application Server ABAP (BIC Document) Version - S4COREOP 104, 105, 106, 107, 108, SEM-BW 600, 602, 603, 604, 605, 634, 736, 746, 747, 748 High",
+      "priority": "High",
+      "cvss": 8.1,
+      "affected_versions_raw": [
+        "S4COREOP 104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "SEM-BW 600",
+        "602",
+        "603",
+        "604",
+        "605",
+        "634",
+        "736",
+        "746",
+        "747",
+        "748"
+      ],
+      "status": "new",
+      "source_text": "3611184 [ CVE-2025-42976 ] Multiple vulnerabilities in SAP NetWeaver Application Server ABAP (BIC Document) Additional CVE - CVE-2025-42975 Product - SAP NetWeaver Application Server ABAP (BIC Document) Version - S4COREOP 104, 105, 106, 107, 108, SEM-BW 600, 602, 603, 604, 605, 634, 736, 746, 747, 748 High 8.1"
+    },
+    {
+      "note_number": "3611345",
+      "cve": [
+        "CVE-2025-42955"
+      ],
+      "title": "[ CVE-2025-42955 ] Missing authorization check in SAP Cloud Connector Product - SAP Cloud Connector Version - SAP_CLOUD_CONNECTOR 2.0 Low",
+      "priority": "Low",
+      "cvss": 3.5,
+      "affected_versions_raw": [
+        "SAP_CLOUD_CONNECTOR 2.0"
+      ],
+      "status": "new",
+      "source_text": "3611345 [ CVE-2025-42955 ] Missing authorization check in SAP Cloud Connector Product - SAP Cloud Connector Version - SAP_CLOUD_CONNECTOR 2.0 Low 3.5"
+    },
+    {
+      "note_number": "3614804",
+      "cve": [
+        "CVE-2025-42946"
+      ],
+      "title": "[ CVE-2025-42946 ] Directory Traversal vulnerability in SAP S/4HANA (Bank Communication Management) Product - SAP S/4HANA (Bank Communication Management) Version - SAP_APPL 606, SAP_FIN 617, 618, 720, 730, S4CORE 102, 103, 104, 105, 106, 107, 108 Medium",
+      "priority": "Medium",
+      "cvss": 6.9,
+      "affected_versions_raw": [
+        "SAP_APPL 606",
+        "SAP_FIN 617",
+        "618",
+        "720",
+        "730",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108"
+      ],
+      "status": "new",
+      "source_text": "3614804 [ CVE-2025-42946 ] Directory Traversal vulnerability in SAP S/4HANA (Bank Communication Management) Product - SAP S/4HANA (Bank Communication Management) Version - SAP_APPL 606, SAP_FIN 617, 618, 720, 730, S4CORE 102, 103, 104, 105, 106, 107, 108 Medium 6.9"
+    },
+    {
+      "note_number": "3616863",
+      "cve": [
+        "CVE-2025-42934"
+      ],
+      "title": "[ CVE-2025-42934 ] CRLF Injection vulnerability in SAP S/4HANA (Supplier invoice) Product - SAP S/4HANA (Supplier invoice) Version - S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Medium",
+      "priority": "Medium",
+      "cvss": 4.3,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109"
+      ],
+      "status": "new",
+      "source_text": "3616863 [ CVE-2025-42934 ] CRLF Injection vulnerability in SAP S/4HANA (Supplier invoice) Product - SAP S/4HANA (Supplier invoice) Version - S4CORE 102, 103, 104, 105, 106, 107, 108, 109 Medium 4.3"
+    },
+    {
+      "note_number": "3624943",
+      "cve": [
+        "CVE-2025-42941"
+      ],
+      "title": "[ CVE-2025-42941 ] Reverse Tabnabbing vulnerability in SAP Fiori (Launchpad) Product - SAP Fiori (Launchpad) Version - SAP_UI 754 Low",
+      "priority": "Low",
+      "cvss": 3.5,
+      "affected_versions_raw": [
+        "SAP_UI 754"
+      ],
+      "status": "new",
+      "source_text": "3624943 [ CVE-2025-42941 ] Reverse Tabnabbing vulnerability in SAP Fiori (Launchpad) Product - SAP Fiori (Launchpad) Version - SAP_UI 754 Low 3.5"
+    },
+    {
+      "note_number": "3625403",
+      "cve": [
+        "CVE-2025-42951"
+      ],
+      "title": "[ CVE-2025-42951 ] Broken Authorization in SAP Business One (SLD) Product - SAP Business One (SLD) Version - B1_ON_HANA 10.0, SAP-M-BO 10.0 High",
+      "priority": "High",
+      "cvss": 8.8,
+      "affected_versions_raw": [
+        "B1_ON_HANA 10.0",
+        "SAP-M-BO 10.0"
+      ],
+      "status": "new",
+      "source_text": "3625403 [ CVE-2025-42951 ] Broken Authorization in SAP Business One (SLD) Product - SAP Business One (SLD) Version - B1_ON_HANA 10.0, SAP-M-BO 10.0 High 8.8"
+    },
+    {
+      "note_number": "3626722",
+      "cve": [
+        "CVE-2025-42949"
+      ],
+      "title": "[ CVE-2025-42949 ] Missing Authorization check in ABAP Platform Product - ABAP Platform Version - SAP_BASIS 758, SAP_BASIS 816, SAP_BASIS 916 Medium",
+      "priority": "Medium",
+      "cvss": 4.9,
+      "affected_versions_raw": [
+        "SAP_BASIS 758",
+        "SAP_BASIS 816",
+        "SAP_BASIS 916"
+      ],
+      "status": "new",
+      "source_text": "3626722 [ CVE-2025-42949 ] Missing Authorization check in ABAP Platform Product - ABAP Platform Version - SAP_BASIS 758, SAP_BASIS 816, SAP_BASIS 916 Medium 4.9"
+    },
+    {
+      "note_number": "3627845",
+      "cve": [
+        "CVE-2025-42943"
+      ],
+      "title": "[ CVE-2025-42943 ] Information Disclosure in SAP GUI for Windows Product - SAP GUI for Windows Version - BC-FES-GUI 8.00 Medium",
+      "priority": "Medium",
+      "cvss": 4.5,
+      "affected_versions_raw": [
+        "BC-FES-GUI 8.00"
+      ],
+      "status": "new",
+      "source_text": "3627845 [ CVE-2025-42943 ] Information Disclosure in SAP GUI for Windows Product - SAP GUI for Windows Version - BC-FES-GUI 8.00 Medium 4.5"
+    },
+    {
+      "note_number": "3627998",
+      "cve": [
+        "CVE-2025-42957"
+      ],
+      "title": "[ CVE-2025-42957 ] Code Injection vulnerability in SAP S/4HANA (Private Cloud or On-Premise) Product - SAP S/4HANA (Private Cloud or On-Premise) Version - S4CORE 102, 103, 104, 105, 106, 107, 108 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108"
+      ],
+      "status": "new",
+      "source_text": "3627998 [ CVE-2025-42957 ] Code Injection vulnerability in SAP S/4HANA (Private Cloud or On-Premise) Product - SAP S/4HANA (Private Cloud or On-Premise) Version - S4CORE 102, 103, 104, 105, 106, 107, 108 Critical 9.9"
+    },
+    {
+      "note_number": "3629871",
+      "cve": [
+        "CVE-2025-42948"
+      ],
+      "title": "[ CVE-2025-42948 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver ABAP Platform Product - SAP NetWeaver ABAP Platform Version - S4CRM 100, 200, 204, 205, 206, S4CEXT 107, 108, 109, BBPCRM 713, 714 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "S4CRM 100",
+        "200",
+        "204",
+        "205",
+        "206",
+        "S4CEXT 107",
+        "108",
+        "109",
+        "BBPCRM 713",
+        "714"
+      ],
+      "status": "new",
+      "source_text": "3629871 [ CVE-2025-42948 ] Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver ABAP Platform Product - SAP NetWeaver ABAP Platform Version - S4CRM 100, 200, 204, 205, 206, S4CEXT 107, 108, 109, BBPCRM 713, 714 Medium 6.1"
+    },
+    {
+      "note_number": "3633838",
+      "cve": [
+        "CVE-2025-42950"
+      ],
+      "title": "[ CVE-2025-42950 ] Code Injection Vulnerability in SAP Landscape Transformation (Analysis Platform) Product - SAP Landscape Transformation (Analysis Platform) Version - DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2011_1_752, 2020 Critical",
+      "priority": "Critical",
+      "cvss": 9.9,
+      "affected_versions_raw": [
+        "DMIS 2011_1_700",
+        "2011_1_710",
+        "2011_1_730",
+        "2011_1_731",
+        "2011_1_752",
+        "2020"
+      ],
+      "status": "new",
+      "source_text": "3633838 [ CVE-2025-42950 ] Code Injection Vulnerability in SAP Landscape Transformation (Analysis Platform) Product - SAP Landscape Transformation (Analysis Platform) Version - DMIS 2011_1_700, 2011_1_710, 2011_1_730, 2011_1_731, 2011_1_752, 2020 Critical 9.9"
+    }
+  ]
+}
