@@ -1,6 +1,19 @@
 # SAP-PATCHDAY
 
 Automated SAP Security Patch Day collector.
+JSON file is available at doc/patchday
+
+- Please note that this project is under development.If you only need the monthly Security Note JSON files (Phase 1), you can readily consume and integrate them into your application.
+- Feel free to fork and use this repository at your own risk.
+- Please be aware that the code was created using a combination of AI-generated tools and minor manual adjustments.
+
+
+## Project plan
+Phase 1  ✅  Public SAP Patch Day ingestion
+Phase 2  🔜  SAP Note deep collector
+Phase 3  🔜  System exposure matching
+Phase 4  🔜  SAP Security Intelligence / RAG
+
 
 ## Phase 1
 
