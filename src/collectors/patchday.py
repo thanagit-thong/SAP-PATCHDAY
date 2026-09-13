@@ -20,7 +20,7 @@ def monthly_bulletin_url(year: int, month: int) -> str:
     """
     Build the monthly SAP Security Patch Day URL.
 
-    Example: Assuming current month is 2026-09
+    Example: Assuming the current month is 2026-09
         -> https://support.sap.com/en/my-support/knowledge-base/
            security-notes-news/september-2026.html
     """
@@ -188,7 +188,7 @@ def fetch_bulletin(
     """
 
     # ---------------------------------------------------------
-    # 2026 and newer
+    # Current year
     # ---------------------------------------------------------
     if year == date.today().year:
 
@@ -202,7 +202,7 @@ def fetch_bulletin(
         return url, html
 
     # ---------------------------------------------------------
-    # 2025 and older
+    # Previous year
     # ---------------------------------------------------------
     url = yearly_archive_url(year)
 
