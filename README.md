@@ -19,8 +19,8 @@ Then convert into JSON: <BR>
 <BR>
 
 
->NOTE
->To apply with Excel, call RAW data URL.
+>**NOTE:** <BR>
+>To apply with Excel, call RAW data URL. <BR>
 >For example, JSON file from 09/2026:  https://raw.githubusercontent.com/thanagit-thong/SAP-PATCHDAY/refs/heads/main/doc/patchday/2026-09.json
 
 <BR>
