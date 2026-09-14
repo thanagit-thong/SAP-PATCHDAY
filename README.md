@@ -37,10 +37,14 @@ This repository:
 5. Validates the generated JSON.
 6. Writes `doc/patchday/YYYY-MM.json`.
 7. Can be run locally or by GitHub Actions.
+<BR>
 
-Phase 2 will add authenticated SAP for Me / deep SAP Note collection.
-Phase 3 will add SAP system exposure matching.
-Phase 4 will provide SAP Security intelligence for RAG/LLM.
+**Phase 2** will add authenticated SAP for Me / deep SAP Note collection. <BR>
+
+**Phase 3** will add SAP system exposure matching. <BR>
+
+**Phase 4** will provide SAP Security intelligence for RAG/LLM. <BR>
+<BR>
 
 ## Local run
 
