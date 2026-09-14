@@ -16,8 +16,14 @@ Captured from: <BR>
 <BR>
 Then convert into JSON: <BR>
 <img width="1280" height="1045" alt="image" src="https://github.com/user-attachments/assets/63bfff68-88e4-43f3-9af6-12349410c963" />
+<BR>
 
 
+>NOTE
+>To apply with Excel, call RAW data URL.
+>For example, JSON file from 09/2026:  https://raw.githubusercontent.com/thanagit-thong/SAP-PATCHDAY/refs/heads/main/doc/patchday/2026-09.json
+
+<BR>
 
 ## Project plan 
 
