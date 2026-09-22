@@ -4,7 +4,7 @@
     "provider": "SAP",
     "type": "SAP Security Patch Day",
     "url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/september-2026.html",
-    "retrieved_at": "2026-09-15T12:39:55.248233+00:00"
+    "retrieved_at": "2026-09-22T12:36:11.121281+00:00"
   },
   "patch_day": {
     "year": 2026,
@@ -15,9 +15,9 @@
   "summary": {
     "announced_new_notes": 19,
     "announced_updates": 1,
-    "parsed_records": 20,
-    "parsed_new_notes": 19,
-    "parsed_updates": 1
+    "parsed_records": 23,
+    "parsed_new_notes": 20,
+    "parsed_updates": 3
   },
   "security_notes": [
     {
@@ -68,6 +68,21 @@
       "source_text": "3371336 [ CVE-2026-76961 ] Cross-Site Request Forgery (CSRF) vulnerability in SAP S/4HANA (Finance for Advanced Payment Management) Product - SAP S/4HANA (Finance for Advanced Payment Management) Version(s) - S4CORE 108 Medium 4.3"
     },
     {
+      "note_number": "3485073",
+      "cve": [
+        "CVE-2026-66766"
+      ],
+      "title": "Update to Security Note released on August 2026 Patch Day: [ CVE-2026-66766 ] Denial of Service (DoS) due to use of third-party component in SAP S/4HANA (Manage Supply Protection) Product - SAP S/4HANA (Manage Supply Protection) Version(s) - UIS4HOP1 800, 900 High",
+      "priority": "High",
+      "cvss": 7.5,
+      "affected_versions_raw": [
+        "UIS4HOP1 800",
+        "900"
+      ],
+      "status": "updated",
+      "source_text": "3485073 Update to Security Note released on August 2026 Patch Day: [ CVE-2026-66766 ] Denial of Service (DoS) due to use of third-party component in SAP S/4HANA (Manage Supply Protection) Product - SAP S/4HANA (Manage Supply Protection) Version(s) - UIS4HOP1 800, 900 High 7.5"
+    },
+    {
       "note_number": "3657599",
       "cve": [
         "CVE-2026-76962"
@@ -82,6 +97,53 @@
       ],
       "status": "new",
       "source_text": "3657599 [ CVE-2026-76962 ] Missing Authorization check in SAP S/4HANA (Manage Bank Chains app) Product - SAP S/4HANA (Manage Bank Chains app) Version(s) - S4CORE 107, 108, 109 Medium 4.3"
+    },
+    {
+      "note_number": "3678417",
+      "cve": [
+        "CVE-2026-0505",
+        "CVE-2026-24323"
+      ],
+      "title": "Update to Security Note released on February 2026 Patch Day: [Multiple CVEs] Multiple vulnerabilities in BSP Applications of SAP Document Management System Additional CVEs - CVE-2026-0505 , CVE-2026-24323 Product - SAP Document Management System Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 602, 603, 604, 605, 606, 617 Medium",
+      "priority": "Medium",
+      "cvss": 6.1,
+      "affected_versions_raw": [
+        "SAP_APPL 618",
+        "S4CORE 102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "EA-APPL 600",
+        "602",
+        "603",
+        "604",
+        "605",
+        "606",
+        "617"
+      ],
+      "status": "updated",
+      "source_text": "3678417 Update to Security Note released on February 2026 Patch Day: [Multiple CVEs] Multiple vulnerabilities in BSP Applications of SAP Document Management System Additional CVEs - CVE-2026-0505 , CVE-2026-24323 Product - SAP Document Management System Version(s) - SAP_APPL 618, S4CORE 102, 103, 104, 105, 106, 107, 108, 109, EA-APPL 600, 602, 603, 604, 605, 606, 617 Medium 6.1"
+    },
+    {
+      "note_number": "3680888",
+      "cve": [
+        "CVE-2026-76974"
+      ],
+      "title": "[ CVE-2026-76974 ] Information Disclosure vulnerability in SAP Fiori Launchpad Product - SAP Fiori Launchpad Version(s) - SAP_UI 757, 758, 816, SAP_BASIS 918 Medium",
+      "priority": "Medium",
+      "cvss": 5.3,
+      "affected_versions_raw": [
+        "SAP_UI 757",
+        "758",
+        "816",
+        "SAP_BASIS 918"
+      ],
+      "status": "new",
+      "source_text": "3680888 [ CVE-2026-76974 ] Information Disclosure vulnerability in SAP Fiori Launchpad Product - SAP Fiori Launchpad Version(s) - SAP_UI 757, 758, 816, SAP_BASIS 918 Medium 5.3"
     },
     {
       "note_number": "3736494",
